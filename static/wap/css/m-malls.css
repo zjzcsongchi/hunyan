@@ -1,0 +1,132 @@
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+body.grey { background: #f3f3f3; }
+
+.mainfix { min-height: 25rem; }
+
+.wap-banner { height: 6.9rem; position: fixed; width: 100%; z-index: 10; }
+
+.swiper-pagination { text-align: right; }
+
+.swiper-pagination-bullet-active { background-color: #dc1a00; }
+
+.malls-main { width: 100%; height: auto; min-height: 16.5rem; padding-top: 6.9rem; }
+
+.left-nav { width: 3.4rem; height: 100%; min-height: 16.5rem; background-color: #eaeaea; position: fixed; top: 6.9rem; left: 0; }
+
+.left-nav li { width: 100%; border-bottom: solid 1px #ccc; }
+
+.left-nav a { display: block; text-align: center; line-height: 1.8rem; font-size: 0.52rem; color: #333; }
+
+.left-nav a:hover, .left-nav a.act { background-color: #f56c65; color: #fff; }
+
+.malls-list { width: 100%; height: auto; padding-left: 3.4rem; }
+
+.malls-list li { width: 100%; margin-bottom: 0.4rem; background-color: #fff; border-bottom: solid 1px #ccc; padding-bottom: 0.5rem; }
+
+.malls-list .img-cont { width: 100%; text-align: center; border-bottom: solid 1px #ccc; }
+
+.malls-list img { max-width: 100%; }
+
+.malls-list .cont { width: 10.8rem; margin: 0 auto; height: auto; overflow: hidden; margin-top: 0.4rem; }
+
+.malls-list .borbot { border-bottom: dashed 1px #e0e0e0; }
+
+.malls-list .title { float: left; width: 50%; font-size: 0.56rem; font-weight: bold; color: #191919; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.malls-list .price { color: #d21718; float: right; max-width: 50%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.malls-list .price span { font-size: 0.58rem; font-weight: bold; }
+
+.malls-list .price p { display: inline-block; position: relative; padding: 0.1rem 0.2rem; background-color: #fa807d; color: #fff; border-radius: 0.1rem 0.1rem 0.1rem 0; margin-left: 0.3rem; }
+
+.malls-list .price i { display: inline-block; position: absolute; bottom: 0; left: -0.24rem; width: 0; height: 0; border-bottom: 0.2rem solid #fa807d; border-left: 0.3rem solid transparent; }
+
+.malls-list .icon { float: left; color: #565656; background-color: #ddd; border-radius: 0.1rem; padding: 0.12rem 0.2rem; margin-right: 0.4rem; margin-bottom: 0.4rem; }
+
+.malls-list .text { float: left; color: #666; line-height: 1rem; margin-right: 0.3rem; }
+
+.malls-list .but { float: left; height: 1rem; line-height: 0.92rem; width: 1rem; border: solid 1px #b9b9b9; text-align: center; color: #777; display: block; }
+
+.malls-list input { float: left; width: 1.2rem; border: solid 1px #b9b9b9; border-left: 0; border-right: 0; line-height: 0.92rem; text-align: center; }
+
+.malls-list .buy { display: block; width: 3.1rem; height: 1rem; background-color: #ffc12d; color: #fff; line-height: 1rem; border-radius: 0.16rem; float: right; text-align: center; }
+
+.malls-list .buy:hover { background-color: #f4ac00; }
+
+.page-car { position: fixed; width: 1.96rem; height: 1.96rem; left: 0.68rem; bottom: 2.8rem; background-color: #ffb700; border-radius: 50%; background-repeat: no-repeat; background-position: 0.38rem center; background-image: url(../images/user-icon8.png?v=ed926); background-size: 1.12rem 0.88rem; display: block; z-index: 10; box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1); }
+
+.page-car p { position: absolute; background-color: #ff803b; border-radius: 50%; color: #fff; padding: 0.12rem 0.22rem; top: -0.2rem; right: -0.2rem; }
+
+.u-flyer { display: block; width: 1.2rem; height: 1.2rem; border-radius: 50%; position: fixed; z-index: 9; }
+
+.detail-list { width: 100%; padding: 0 0.4rem; margin: 0.8rem 0; height: auto; overflow: hidden; margin-bottom: 1.2rem; }
+
+.detail-list li { margin-top: 0.8rem; width: auto; height: auto; overflow: hidden; }
+
+.detail-list label { float: left; line-height: 1.2rem; font-size: 0.6rem; color: #666; width: 2rem; }
+
+.detail-list .list { float: left; width: 11.4rem; }
+
+.detail-list .list p { float: left; padding: 0.3rem 0.7rem 0.3rem 0.4rem; color: #333; border: solid 1px #b5b5b5; margin: 0 0.3rem 0.4rem 0; position: relative; }
+
+.detail-list .list p.act { border: solid 1px #ffb700; }
+
+.detail-list .list p.act i { display: inline-block; position: absolute; bottom: 0; right: 0; width: 0.62rem; height: 0.62rem; background-size: 0.62rem 0.62rem; background-image: url(../images/user-icon9.png?v=dfea4); }
+
+.detail-list .but { display: block; float: left; width: 1rem; height: 1.2rem; text-align: center; line-height: 1.2rem; border: solid 1px #b5b5b5; color: #777; }
+
+.detail-list input { float: left; height: 1.2rem; border: none; border-top: solid 1px #b5b5b5; border-bottom: solid 1px #b5b5b5; text-align: center; line-height: 1.2rem; width: 1.4rem; }

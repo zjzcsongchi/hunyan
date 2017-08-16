@@ -1,0 +1,54 @@
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  .order-popup { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  .order-popup { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  .order-popup { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  .order-popup { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  .order-popup { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  .order-popup { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  .order-popup { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  .order-popup { font-size: 24px; } }
+
+.page-bg { position: fixed; width: 1010%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 15; display: none; }
+
+.page-bg.act { display: block; }
+
+.order-popup { position: fixed; z-index: 20; width: 12.8rem; height: 6.32rem; top: -50%; left: 50%; margin: -3.16rem 0 0 -6.4rem; background-color: #fff; border-radius: 0.16rem; text-align: center; padding-top: 1.2rem; -webkit-transition: all .5s; transition: all .5s; }
+
+.order-popup .title1 { font-size: 0.72rem; color: #666; }
+
+.order-popup .title2 { font-size: 0.72rem; color: #ffb700; }
+
+.order-popup a { text-decoration: blink; display: block; width: 2.8rem; height: 1.4rem; text-align: center; font-size: 0.6rem; color: #FFF; line-height: 1.4rem; margin-top: 1.4rem; border-radius: 0.16rem; background-color: #ffc107;}
+
+.order-popup .no { float: left; background-color: #e4e4e4; margin-left: 2.9rem; }
+
+.order-popup .yes {float: right;margin-right: 2.9rem;border: solid 1px #ffffff;}
+
+.order-popup .succes { border: solid 1px #ffffff; margin: 1.4rem auto; }
+
+.order-popup.act { top: 50%; }
+

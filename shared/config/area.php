@@ -1,0 +1,1 @@
+<?phpif (! defined('BASEPATH'))    exit('No direct script access allowed');    // 地区配置$config = array (        'anshun' => array (                'id' => '36098',                'name' => '安顺'        ));

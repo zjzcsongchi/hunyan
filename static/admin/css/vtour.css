@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+.logo {
+	position:absolute; 
+	top:10px; 
+	left:10px; 
+	z-index:1; 
+	max-width:200px; 
+	max-height:200px;
+}
+.textfield{
+    position: absolute;
+    z-index: 1;
+    left: 213px;
+    top: 22px;
+    font-family: Arial;
+}
+.textfield span{
+    font-size: 16px;
+    color:#fff;
+}
+.control-area{
+    position: absolute; 
+    top: 21px; 
+    right: 20px;
+    z-index: 1; 
+}
+.bgmusic_btn{
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 32px; height: 33px; 
+	background-position: -64.5px -334.569px; 
+	background-size: 350px 456.923px; 
+}
+.voice_btn{
+	display:none;
+	position: absolute; 
+	margin:0 auto;
+	z-index: 1; 
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 262px; height: 82px; 
+	background-position: -240px 0px; 
+	background-size: 700px 900px; 
+}
+.autoscan_btn{
+    margin-top:10px;
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 32px; height: 33px; 
+	background-position: -130px -334px; 
+	background-size: 350px 456.923px; 
+}
+.talk_cover{
+    margin-top:10px;
+    width: 32px;
+    height: 32px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    border: 1px solid #85623E;
+}
+.talk_btn{
+	overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    background-image: url(../../krpano/skin/talk.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 25px 20px;
+    background-position: 3px 5px;
+}
+.talk_manage_cover{
+    margin-top:10px;
+    width: 32px;
+    height: 32px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    border: 1px solid #85623E;
+}
+.talk_hide{
+	overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    background-image: url(../../krpano/skin/talk_show.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 25px 20px;
+    background-position: 3px 5px;
+}
+.talk_show{
+	overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    background-image: url(../../krpano/skin/talk_hide.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 25px 20px;
+    background-position: 3px 5px;
+}
+.zan_cover{
+    margin-top:10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #85623E;
+}
+.zan_btn {
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(../images/zan.png);
+    width: 32px;
+    height: 32px;
+    background-size: 22px 20px;
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+}
+.zaned_btn {
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(../images/zaned.png);
+    width: 32px;
+    height: 32px;
+    background-size: 24px 23px;
+    background-repeat: no-repeat;
+    background-position: 3px 5px;
+}
+.tel_cover{
+    margin-top:10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #85623E;
+}
+.tel_btn{
+    display:block;
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(../../krpano/skin/tel.png);
+    width: 32px;
+    height: 32px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+.location_cover{
+    margin-top:10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #85623E;
+}
+.location_btn{
+    display:block;
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(../../krpano/skin/navigation.png);
+    width: 32px;
+    height: 32px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+@media (max-width:768px){
+	.logo{
+		position:absolute; 
+		top:10px; 
+		left:10px; 
+		z-index:1; 
+		max-width:120px; 
+    }
+    .textfield{
+        left: 133px;
+        top: 11px;
+    }
+    .textfield span{
+	    font-size: 12px;
+        color:#fff;
+	}
+    .control-area{
+        position: absolute; 
+        top: 0px; 
+        right: 10px;
+        z-index: 1; 
+    }
+}
+@media (max-width:768px){
+	.qrcode{
+	display:none;
+	}
+}
+.qrcode{
+	position: absolute;
+    bottom: 74px;
+    right: 20px;
+    width: 148px;
+    height: 184px;
+    background:rgba(0,0,0,0.5);
+    z-index: 1;
+    border-radius: 7px;
+}
+.qrcode p{
+	text-align:center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color:#fff;
+}
+.qrcode img{
+	width:113px;
+	height:113px;
+	text-align:center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#popular{
+	position:fixed;
+	right:50px;
+	bottom:257px;
+}
+
+
+#popular span {
+    font-size: 16px;
+    color: #fff;
+	margin-right:-5px;
+}
+

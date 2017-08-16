@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*酒水详情*/
+.drink-detail { width: 100%; height: auto; overflow: hidden; margin-top: 45px; margin-bottom: 65px; }
+
+.drink-detail .right-cont { float: right; width: 660px; height: auto; }
+
+.drink-detail .title { width: 100%; height: 45px; border-bottom: dashed 1px #d7d7d7; padding-top: 20px; line-height: 45px; color: #333; font-size: 20px; font-weight: bold; }
+
+.drink-detail .price-cont { width: 620px; height: 100px; background-color: #f2f2f2; margin-top: 10px; color: #787878; padding-right: 40px; }
+
+.drink-detail .price-cont span { float: left; line-height: 100px; text-indent: 20px; }
+
+.drink-detail span.price { font-weight: bold; font-size: 30px; color: #d21718; margin-left: 10px; text-indent: 0; }
+
+.drink-detail span.text-red { color: #d21718; margin-left: 25px; font-size: 18px; text-indent: 0; }
+
+.drink-detail .icon { display: inline-block; float: left; position: relative; margin-top: 40px; padding: 5px 15px; color: #fff; line-height: 12px; background-color: #fa807d; border-radius: 3px 3px 3px 0; font-size: 12px; margin-left: 20px; }
+
+.drink-detail .icon i { position: absolute; display: inline-block; bottom: 0; left: -7px; width: 0; height: 0; border-bottom: 4px solid #fa807d; border-left: 7px solid transparent; }
+
+.drink-detail .price-cont b { display: inline-block; float: right; padding: 3px 10px; color: #fff; border-radius: 3px; background-color: #ffc12d; margin-left: 12px; margin-top: 41px; font-weight: normal; }
+
+.drink-detail .num { width: 100%; padding: 15px 0; border-bottom: dashed 1px #d7d7d7; color: #787878; font-size: 16px; text-indent: 15px; }
+
+.drink-detail .num span { color: #333; margin-left: 10px; }
+
+.drink-detail .cont { width: 100%; height: auto; overflow: hidden; margin-top: 30px; }
+
+.drink-detail .cont span { float: left; letter-spacing: 25px; color: #787878; line-height: 30px; text-indent: 25px; }
+
+.drink-detail .sum { float: left; display: inline-block; height: 28px; border: solid 1px #b5b5b5; width: 28px; line-height: 28px; text-align: center; font-size: 20px; }
+
+.drink-detail .sum.but { color: #ffb700; }
+
+.drink-detail input { float: left; width: 48px; border: solid 1px #b5b5b5; border-right: none; border-left: none; line-height: 28px; text-align: center; }
+
+.drink-detail .cont b { display: inline-block; float: left; margin-top: 5px; font-weight: normal; width: 22px; height: 22px; text-align: center; line-height: 22px; color: #fff; border-radius: 50%; background-color: #fa807d; margin-left: 10px; }
+
+.drink-detail .cont b.icon1 { background-color: #ffc12d; margin-left: 35px; }
+
+.drink-detail .destine { display: block; float: left; margin-left: 25px; width: 195px; height: 45px; border-radius: 5px; background-color: #ffc12d; color: #fff; line-height: 45px; text-align: center; font-size: 20px; }
+
+.drink-detail .destine:hover { background-color: #f3ab00; }
+
+.drink-detail .pay-way { float: right; margin-right: 25px; color: #787878; padding-right: 25px; line-height: 45px; cursor: pointer; height: 45px; background-image: url(../images/m-arror.png?v=c76ed); background-repeat: no-repeat; background-position: right center; background-size: 15px 9px; }
+
+.drink-detail .tip-text { width: 100%; margin-top: 25px; height: 25px; line-height: 25px; background-color: #f2f2f2; }
+
+.drink-detail .tip-text span { margin-left: 25px; color: #787878; }
+
+.drink-detail .norms-cont { float: left; width: 555px; }
+
+.drink-detail .norms-cont .list { float: left; padding: 5px 10px; color: #212121; border: solid 1px #aaa; margin-right: 20px; position: relative; cursor: pointer; }
+
+.drink-detail .norms-cont .list.act { border: solid 1px #ffc12d; }
+
+.drink-detail .norms-cont i { display: none; }
+
+.drink-detail .norms-cont .list.act i { display: inline-block; position: absolute; bottom: 0; right: 0; width: 14px; height: 14px; background-size: 14px 14px; background-image: url(../images/media-icon5.png?v=cffd1); }
+
+.info-list { width: 100%; padding: 15px 0; border-bottom: dashed 1px #d7d7d7; height: auto; overflow: hidden; }
+
+.info-list li { float: left; width: 305px; line-height: 30px; color: #d21718; padding-left: 25px; }
+
+.info-list span { color: #787878; width: 85px; display: inline-block; letter-spacing: 1px; }
+
+.info-list .text1 { letter-spacing: 28px; }
+
+.info-list .text2 { letter-spacing: 7px; }
+
+.tFocus { width: 475px; height: 595px; overflow: hidden; float: left; }
+
+.tFocus .tFocus-pic { width: 475px; height: 475px; position: relative; }
+
+.tFocus .tFocus-pic li { width: 473px; height: 473px; position: absolute; left: 0; top: 0; opacity: 0; border: solid 1px #ddd; }
+
+.tFocus .tFocus-pic li img { width: 100%; height: 100%; }
+
+.tFocus .tFocusBtn { width: 475px; height: 100px; margin-top: 20px; z-index: 20; overflow: hidden; }
+
+.tFocus .tFocus-btn { width: 475px; height: 100px; position: relative; left: 0; bottom: 0; overflow: hidden; float: left; }
+
+.tFocus .tFocus-btn ul { width: 1000px; position: absolute; left: 0; top: 0; }
+
+.tFocus .tFocus-btn li { height: 96px; width: 100px; display: block; float: left; margin-right: 21px; border: solid 2px #fff; cursor: pointer; }
+
+.tFocus .tFocus-btn li img { width: 100%; height: 100%; }
+
+.tFocus .tFocus-btn li.active { border: solid 2px #ffc12d; }
+
+
+.container .popup-bespeak { position: fixed; width: 710px; height: 400px; background-color: #fff; z-index: 115; top: -150%; left: 50%; margin: -225px 0 0 -355px; transition: all .8s; -webkit-transition: all .8s; -moz-transition: all .8s; -ms-transition: all .8s; -o-transition: all .8s; }
+
+.popup-bespeak .close { position: absolute; width: 13px; height: 13px; background: url(../images/close.png?v=8c6bf); top: 30px; right: 30px; cursor: pointer; z-index: 10; transition: all .5s; -webkit-transition: all .5; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; }
+
+.popup-bespeak .close:hover { transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); }
+
+.popup-bespeak .head { width: 100%; height: 70px; border-bottom: solid 1px #cfcfcf; text-align: center; line-height: 70px; font-size: 22px; color: #ffb700; }
+
+.popup-bespeak ul { width: 600px; padding: 0 55px; height: auto; overflow: hidden; margin-top: 10px; }
+
+.popup-bespeak li { float: left; margin-top: 25px; margin-left:20px;}
+
+.popup-bespeak input,select { width: 275px; height: 35px; border: solid 1px #cacaca; line-height: 35px; text-indent: 10px; }
+
+.popup-bespeak .message { text-align: center; color: #ff0000; line-height: 30px; margin-top: 10px; }
+
+.popup-bespeak .submit { display: block; width: 160px; height: 40px; margin: 0 auto; background-color: #ffb700; color: #fff; text-align: center; line-height: 40px; border-radius: 5px; font-size: 16px; }
+
+.popup-bespeak.act { top: 50%; }
+
+

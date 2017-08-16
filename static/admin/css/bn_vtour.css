@@ -1,0 +1,261 @@
+@CHARSET "UTF-8";
+@charset "UTF-8";
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+  
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+@font-face { font-family: 'helvetica'; src: url(../fonts/HelveticaNeueLTPro-UltLtEx.otf?v=cba64) format("truetype"); }
+
+* { outline: 0; -webkit-tap-highlight-color: transparent; -webkit-box-sizing: border-box; font-family: "Microsoft Yahei"; line-height: 1; font-size: 0.48rem; }
+
+html { min-width: 6.4rem; height: 100%; }
+
+body { margin: 0 auto; min-width: 6.4rem; max-width: 15rem; box-sizing: border-box; line-height: 1; overflow-x: hidden; background: #fff; }
+
+body.grey { background: #eee; }
+
+a { text-decoration: none; }
+
+input { font-family: "Microsoft Yahei"; font-size: 0.6rem; color: #aaa; border: none; }
+.textfield{
+    position: fixed;
+    z-index: 1;
+    left: 213px;
+    top: 16px;
+    font-family: Arial;
+}
+.textfield span{
+    font-size: 13px;
+}
+.logo {
+	position:fixed; 
+	top:10px; 
+	left:10px; 
+	z-index:1; 
+	max-width:200px; 
+	max-height:200px;
+}
+
+.bgmusic_btn{
+	position: fixed; 
+	top: 25px; 
+	right: 30px;
+	z-index: 1; 
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 32px; height: 33px; 
+	background-position: -64.5px -334.569px; 
+	background-size: 350px 456.923px; 
+}
+.voice_btn{
+	display:none;
+	position: absolute; 
+	margin:0 auto;
+	z-index: 1; 
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 262px; height: 82px; 
+	background-position: -240px 0px; 
+	background-size: 700px 900px; 
+}
+.autoscan_btn{
+	position: fixed; 
+	top: 65px; 
+	right: 30px;
+	z-index: 1; 
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 32px; height: 33px; 
+	background-position: -130px -334px; 
+	background-size: 350px 456.923px; 
+}
+.zan_cover{
+    position: fixed;
+    top: 105px;
+    right: 30px;
+    z-index:1;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #85623E;
+}
+.zan_btn {
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(../images/zan.png);
+    width: 32px;
+    height: 32px;
+    background-size: 22px 20px;
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+}
+.zaned_btn {
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(../images/zaned.png);
+    width: 32px;
+    height: 32px;
+    background-size: 24px 23px;
+    background-repeat: no-repeat;
+    background-position: 3px 5px;
+}
+@media (max-width:768px){
+	.logo{
+		position:fixed; 
+		top:10px; 
+		left:10px; 
+		z-index:1; 
+		max-width:120px; 
+    }
+    .textfield{
+        left: 133px;
+        top: 16px;
+    }
+    .bgmusic_btn{
+    top: 10px; 
+    right: 20px;
+    }
+    .autoscan_btn{
+    top:50px;
+    right:20px;
+    }
+    .zan_cover{
+        position: fixed;
+        top: 92px;
+        right: 20px;
+        z-index:1;
+        background: rgba(0,0,0,0.3);
+        border-radius: 32px;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #85623E;
+    }
+}
+@media (max-width:768px){
+	.qrcode{
+	display:none;
+	}
+}
+.qrcode{
+	position: fixed;
+    bottom: 74px;
+    right: 20px;
+    width: 148px;
+    height: 184px;
+    background:rgba(0,0,0,0.5);
+    z-index: 1;
+    border-radius: 7px;
+}
+.qrcode p{
+	text-align:center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.qrcode img{
+	width:113px;
+	height:113px;
+	text-align:center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reserve{
+    position: fixed;
+    bottom: 2.8rem;
+    z-index: 1;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.reserve button{
+	background-color: #f4ac00;
+    border: 0;
+    color: #fff;
+    position: relative;
+    margin: auto;
+    width: 4.9rem;
+    font-size: 0.8rem;
+    height: 1.4rem;
+    border-radius: 4px;
+}
+
+.popup-destine { position: fixed; top: -150%; left: 50%; margin: -8.6rem 0 0 -6.5rem; z-index: 2100; padding: 0.8rem; width: 13rem; height: 17.2rem; background-color: #fff; box-shadow: 0 0 10px 4px #444; border-radius: 0.2rem; -webkit-transition: all .8s ease-in; transition: all .8s; }
+
+.popup-destine .close { position: absolute; top: 0.5rem; right: 0.5rem; width: 0.4rem; height: 0.4rem; background-image: url(../images/m-close.png?v=fa965); background-size: 0.4rem 0.4rem; }
+
+.popup-destine .title { width: 100%; text-align: center; font-size: 0.72rem; color: #4e4e4e; margin-bottom: 0.6rem; }
+
+.popup-destine input, .popup-destine select, .popup-destine textarea { width: 100%; height: 1.36rem; border-radius: 0.16rem; border: solid 1px #c1c1c1; line-height: 1.36rem; padding: 0 0.2rem; margin-top: 0.44rem; }
+
+.popup-destine textarea { height: 2.6rem; }
+
+.popup-destine .message { width: 100%; color: #ff0000; text-align: center; height: 0.9rem; line-height: 0.9rem; }
+
+.popup-destine .but { display: block; width: 3.8rem; height: 1.2rem; margin: 0 auto; border-radius: 0.2rem; background-color: #ffb700; color: #fff; text-align: center; line-height: 1.2rem; font-size: 0.64rem; }
+
+.popup-destine.act { top: 50%; }

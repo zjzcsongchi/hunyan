@@ -1,0 +1,76 @@
+html, body { background: #f2f2f2; }
+
+.container { padding-top: 0px; }
+
+.wall-banner { width: 100%; height: 445px; position: relative; background-position: center; background-image: url(../images/wall-bg.jpg?v=345e1); }
+
+.wall-banner .cont { width: 1200px; height: auto; margin: 0 auto; padding-top: 100px; text-align: center; position: relative; }
+
+.wall-banner .title { font-size: 36px; font-weight: bold; color: #fff; }
+
+.wall-banner .text { font-weight: bold; font-size: 18px; color: #fff; margin-top: 25px; }
+
+.wall-banner .input-cont { width: 680px; height: 46px; padding: 4px; margin: 40px auto; background-image: url(../images/opacity6.png?v=5b40e); border-radius: 5px; }
+
+.wall-banner input { height: 46px; line-height: 46px; border: none; background-color: #fff; border-radius: 4px 0 0 4px; float: left; width: 519px; padding: 0 13px; font-size: 16px; }
+
+.wall-banner a { display: block; float: right; width: 135px; height: 46px; line-height: 46px; background-color: #ffc12d; border-radius: 0 4px 4px 0; color: #fff; font-size: 20px; text-indent: 25px; background-repeat: no-repeat; background-position: 25px center; background-image: url(../images/search.png?v=45516); }
+
+.chose-cont { width: 100%; height: 54px; margin: 30px 0; }
+
+.chose-cont .cont { width: 300px; height: 20px; background-color: #fff; border: solid 4px #f9f9f9; border-radius: 5px; box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1); padding: 8px 0; position: relative; cursor: pointer; }
+
+.chose-cont .l { margin-left: 280px; }
+
+.chose-cont .r { margin-right: 280px; }
+
+.chose-cont .head { float: left; width: 60px; height: 20px; line-height: 20px; border-right: solid 1px #ddd; text-align: center; font-size: 16px; color: #999; }
+
+.chose-cont .text { float: left; height: 20px; line-height: 20px; width: 180px; padding-left: 15px; font-size: 16px; cursor: pointer; color: #ccc; }
+
+.chose-cont .text.act { color: #333; }
+
+.chose-cont i { position: absolute; display: inline-block; right: 15px; }
+
+.chose-cont .l i { top: 10px; background-image: url(../images/wall-icon1.png?v=b62c0); width: 18px; height: 16px; }
+
+.chose-cont .r i { top: 15px; background-image: url(../images/m-arror.png?v=c76ed); width: 11px; height: 6px; background-size: 11px 6px; }
+
+.chose-cont .list { position: absolute; width: 235px; background-color: #fff; border-radius: 5px; right: 2px; top: 35px; height: 0; overflow: hidden; z-index: 10; transition: all .4s; -webkit-transition: all .4s; -moz-transition: all .4s; -ms-transition: all .4s; -o-transition: all .4s; }
+
+.chose-cont .list li { width: 100%; height: 46px; line-height: 46px; text-indent: 15px; font-size: 16px; color: #666; border-bottom: solid 1px #ddd; }
+
+.chose-cont .list li a { display: block; color: #666; }
+
+.chose-cont .list li:hover, .chose-cont .list li.act { color: #ffc12d; }
+
+.chose-cont .list.act { height: auto; z-index:10; }
+
+.project-list { width: 100%; height: auto; margin-bottom: 80px; }
+
+.project-list li { float: left; margin: 0 20px 20px 0; width: 386px; height: 300px; position: relative; border-radius: 5px; cursor: pointer; }
+
+.project-list .shoadw { position: absolute; top: 100%; left: 0; z-index: 1; display: block; content: ''; height: 20px; width: 100%; background: url(../images/list-shadow.png?v=fc5d5) no-repeat; background-size: 100%; }
+
+.project-list img { width: 100%; height: 225px; border-radius: 5px 5px 0 0; }
+
+.project-list .name { width: 100%; font-size: 16px; color: #666; text-indent: 15px; margin-top: 10px; }
+
+.project-list .cont { width: 100%; color: #999; height: 15px; line-height: 15px; margin-top: 12px; }
+
+.project-list .cont p { background-repeat: no-repeat; background-position: left center; text-indent: 20px; }
+
+.project-list .l { margin-left: 15px; background-image: url(../images/wall-icon2.png?v=e2a3b); }
+
+.project-list .r { margin-right: 15px; background-image: url(../images/wall-icon3.png?v=a06b6); }
+
+.project-list .project_card { width: 386px; height: 300px; display: block; background-color: #fff; border-radius: 5px; }
+
+.project-list li:hover .shadow { background-image: -webkit-linear-gradient(43deg, rgba(0, 0, 0, 0.4), transparent 50%); background-image: linear-gradient(47deg, rgba(0, 0, 0, 0.4), transparent 50%); background-image: -webkit-linear-gradient(47deg, rgba(0, 0, 0, 0.4), transparent 50%); }
+
+.wall-banner .count { position: absolute; top: 112px; left: 0; color: #fff; font-size: 18px; text-indent: 45px; padding: 10px 15px; background-color: #ffc12d; border-radius: 5px; background-repeat: no-repeat; background-image: url(../images/icon1.png?v=02009); background-position: 10px center; }
+
+.more { display: block; width: 100%;clear:both; height: 50px; margin-top: 50px; background: #ccc; color: #333; text-align: center; line-height: 50px;margin-bottom:50px; }
+.more:hover{background: #ffb700;color: #fff;}
+
+.page-main{min-height:650px;}

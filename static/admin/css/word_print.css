@@ -1,0 +1,157 @@
+* { margin: 0; padding: 0; font-size: 16px; }
+
+html, body{ min-height: 100%; width: 100%; font-family: "Microsoft Yahei";  height: auto; background: #fff; }
+
+input, textarea { outline: none; border: none; font-family: "Microsoft Yahei"; }
+
+a { color: #424242; text-decoration: none; text-decoration: none; }
+
+ul, ol, li { list-style-type: none; }
+
+img { border: none; }
+
+.bg{ width: 100%;background: #F4F4F4;    padding: 15px; }
+
+.page-main {background: #FFFFFF;padding: 15px;border:1px solid #DCDCDC;}
+.page-main .title { text-align: center; font-size: 22px; }
+
+.page-main .text { text-indent: 2em;   margin-top: 15px; }
+
+.page-main input[type="text"] { height: 24px; line-height: 24px; text-indent: 10px; border-bottom: solid 1px #333; }
+
+.page-main .padleft { padding-left: 500px; }
+
+.page-main .padleft1 { padding-left: 300px; }
+
+.page-main .padleft2 { padding-left: 400px; }
+
+.page-main .clear { width: 100%; height: 80px; }
+
+.page-main .text1 { text-indent: 0; }
+
+.page-main .cont { width: 100%; height: auto; overflow: hidden; line-height: 30px;  margin-top: 30px; }
+
+.page-main .cont1 { width: 500px; text-indent: 2em; float: left; }
+
+/*.page-main .cont2 { float: left; text-indent: 2em; }*/
+
+.page-main .head { text-align: center; font-size: 36px; font-weight: bold; margin-bottom:35px; }
+
+.yuding{line-height: 20px;}
+
+span{text-decoration: underline;}
+
+.page-main .jia,.yi{line-height:30px}
+
+.page-main .pact-text span { text-decoration: underline; }
+
+.page-main .text-indent {text-indent: 30px; width:100%;background: #F4F4F4; height:60px; margin-top: 10px; padding: 10px 0px;font-size: 16px;}
+
+.dic{line-height: 40px;font-weight: 900;}
+
+.form{margin-top:10px;width:96%;padding: 15px; background: #F4F4F4;}
+
+.form h6{width:100%;line-height: 20px; font-size:16px;}
+
+
+.form1{width:100%;margin: 0px auto;}
+
+.form1 ul{display: block;overflow: hidden;padding-left: 20px; }
+
+.form1 ul li{width:20%;height:20px;float: left;text-align: left;}
+
+.form1 p{float: left;width: 25%;line-height: 20px;}
+
+
+.req ul{overflow: hidden;}
+
+.req ul li{float:left}
+
+.fix ul li{width: 50%;}
+
+ i {font-size: 12px;font-style:normal;color:#B7B7B7;font-weight: 100;}
+
+ .zs ul li {
+ 	float: left;
+ 	width: 50%;
+}
+
+.mif ul li{width:33%}
+
+ .gm ul li {
+ 	float: left;
+ 	width: 50%;
+}
+
+/*.res p{line-height: 30px;}*/
+
+.tex {margin:20px auto;}
+.tex textarea{width:97%;height:100px;font-size: 18px;padding: 10px;border: 1px solid #E4E4E4;margin:20px auto;}
+
+.text3{padding:10px;padding-left: -10px;}
+
+/*.text3 ul li{list-style:none;line-height: 20px;list-style-position: outside;font-size: 16px;}*/
+.text3 p{padding-left: 20px;}
+.red{color:#f00}
+
+table{margin-top: 20px;border:1px solid #DDDBDC;background: #F4F4F4; text-align: center;width: 100%;display: block;}
+
+table .left{text-align: left;}
+
+table tr,td{border:1px solid #DDDBDC;     line-height: 35px;}
+
+table tr .center{width: 50px;text-align: left;padding-left: 80px;}
+
+#bill{padding-left: 20px;height: 80px;text-align: left; line-height: 20px; background: #FFFFFF;margin: 10px 0px;}
+
+#bill .red{color:#f00};
+
+.gZ{width:100%;position: relative;}
+
+.gZ ul{width:100% ;margin-bottom: 30px;}
+
+.gZ ul li{float: left;width:50%;line-height: 20px;position: relative;}
+
+.gZ ul li i{position: relative;}
+
+.gZ ul li .sign{width:182px;height:100px;border: 1px dashed #DCDCDC; position: absolute;top:-54px;left: 90px;}
+
+.gZ ul li .sign img{width: 100%; height: 100%;}
+
+
+
+.gZ .img{position: absolute;top:-50px;right:-60px;width:130px;height:130px;}
+
+.h4{font-size: 26px;}
+/*.gZ img{display:block;position: absolute;}*/
+.tb2{border: 1px solid #ddd;margin-top: 30px;}
+
+.tb2 ul{overflow: hidden;text-align: center;}
+
+.tb2 ul li{width:100%;overflow: hidden;border: 1px solid #ddd;height: 20px;line-height: 20px;}
+
+.tb2 ul li p{width:49.5%;float: left;text-align: center;}
+
+.tb2 ul li p:nth-child(1){border-right: 1px solid #ddd;}
+
+/**进度spin背景**/
+#back_bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../images/opacity.png?v=7e766);
+    z-index: 110;
+    display:none;
+}
+
+.form-coupon{width:100%;}
+
+.form-coupon ul{display: block;overflow: hidden;padding-left: 20px; }
+
+.form-coupon ul li{width:100%;float: left;text-align: left; -webkit-transition: opacity 1s ease-in-out;}
+
+.form-coupon ul li span{float: left; text-decoration: none;padding-right: 10px;}
+
+.form-coupon ul li .underline{min-width: 150px; text-decoration: underline; float: right;}

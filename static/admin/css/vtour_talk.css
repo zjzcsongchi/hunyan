@@ -1,0 +1,11 @@
+.ui-popup{
+    top:auto !important;
+    bottom:5px !important;
+    width:100%;
+}
+.ui-dialog-content{
+    width:100%;
+}
+.ui-dialog-grid{
+    width:100%;
+}

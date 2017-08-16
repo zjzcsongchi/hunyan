@@ -1,0 +1,171 @@
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+@font-face { font-family: 'helvetica'; src: url(../fonts/HelveticaNeueLTPro-UltLtEx.otf?v=cba64) format("truetype"); }
+
+* { outline: 0; -webkit-tap-highlight-color: transparent; -webkit-box-sizing: border-box; font-family: "Microsoft Yahei"; line-height: 1; font-size: 0.48rem; }
+
+html { min-width: 6.4rem; height: 100%; }
+
+body { margin: 0 auto; min-width: 6.4rem; max-width: 15rem; box-sizing: border-box; line-height: 1; overflow-x: hidden; background: #fff; }
+
+body.grey { background: #eee; }
+
+a { text-decoration: none; }
+
+input { font-family: "Microsoft Yahei"; font-size: 0.6rem; color: #aaa; border: none; }
+
+.l { float: left; }
+
+.r { float: right; }
+
+.scroller { overflow: hidden; position: relative; }
+
+.mainContainer { overflow: hidden; width: 100%; height: auto; min-height: 26rem; }
+
+.outerWrap, .innerWrap { position: relative; }
+
+.outerWrap { overflow: hidden; box-sizing: border-box; width: 100%; }
+
+.innerWrap { z-index: 1; left: 0; -webkit-transition: all .5s; transition: all .5s; }
+
+.mainfix { overflow-y: scroll; width: 15rem; overflow: hidden; margin: 0 auto; position: relative; height: auto; padding-bottom: 2rem; min-height: 26rem; }
+
+.page-bg { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 100; display: none; }
+
+.page-bg.act { display: block; }
+
+.wap-banner { position: relative; height: 8.58rem; overflow-x: hidden; }
+.wap-banner1 { position: relative; height: 8.58rem; overflow-x: hidden; }
+
+.swiper-slide { position: relative; text-align: center; font-size: 0.24rem; background: #fff; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+
+.swiper-slide img { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; }
+
+.swiper-slide img.act { z-index: 5; }
+
+.swiper-slide i { position: absolute; z-index: 0; width: 1.24rem; height: 1.24rem; left: 50%; top: 50%; margin: -0.62rem 0 0 -0.62rem; display: none; background-image: url(../images/m-video.png?v=1924d); background-size: 1.24rem 1.24rem; }
+
+.swiper-slide i.act { display: inline-block; z-index: 6; }
+
+.video-cont { width: 100%; height: 7.7rem; position: relative; overflow: hidden; }
+
+.video-cont img { width: 100%; height: 7.7rem; position: absolute; top: 0; left: 0; z-index: 0; }
+
+.video-cont img.act { z-index: 5; }
+
+.video-cont i { position: absolute; z-index: 5; width: 1.24rem; height: 1.24rem; left: 50%; top: 50%; margin: -0.62rem 0 0 -0.62rem; display: none; background-image: url(../images/m-video.png?v=1924d); background-size: 1.24rem 1.24rem; }
+
+.video-cont i.act { display: inline-block; }
+
+.video-cont .baner-title { position: absolute; z-index: 6; bottom: 0; left: 0; width: 100%; height: 1.82rem; background-image: url(../images/ban-bg.png?v=268fb); text-align: center; }
+
+.video-cont .baner-title img { width: 12.66rem; height: 1.06rem; margin-top: 0.38rem; position: relative; }
+
+.search { position: relative; width: 100%; height: 1.4rem; background-image: url(../images/m-search.jpg?v=2b350); background-size: cover; padding: 0.2rem 0.4rem; }
+
+.search input { width: 100%; height: 1rem; line-height: 1rem; border-radius: 0.2rem; padding: 0 0.2rem; box-shadow: 0 0 3px 2px #ddd inset; }
+
+.search p { width: 3.4rem; height: 100%; position: absolute; top: 0; left: 50%; margin-left: -1.7rem; display: none; line-height: 1.4rem; color: #aca9a9; background-image: url(../images/m-search.png?v=04257); background-size: 0.5rem 0.5rem; background-position: 2.8rem center; background-repeat: no-repeat; }
+
+.search p.act { display: block; }
+
+.more { display: block; width: 14.2rem; height: 1rem; margin: 0.8rem auto; background-color: #ececec; border-radius: 0.16rem; text-align: center; line-height: 1rem; color: #a1a1a1; margin-bottom: 1.6rem; }
+
+.more:hover { background-color: #c6c6c6; }
+
+.footer { width: 100%; height: 1.96rem; text-align: center; position: fixed; bottom: 0; left: 0; background-color: #fff; border-top: solid 1px #ddd; z-index: 100; }
+
+.footer .first-list { float: left; position: relative; width: 4.98rem; height: 100%; border-right: solid 1px #ddd; }
+
+.footer .list { position: absolute; z-index: 5; background-color: #fff; left: 0; top: 0; width: 100%; height: 100%; text-align: center; line-height: 1.96rem; font-size: 0.6rem; color: #666; }
+
+.footer .list i { position: absolute; display: inline-block; top: 0.8rem; left: 0.4rem; width: 0.6rem; height: 0.4rem; background-image: url(../images/m-menu.png?v=0f52b); background-size: 0.6rem 0.4rem; }
+
+.footer .first-list:last-child { border-right: none; }
+
+.footer .second-list { position: absolute; width: 4.4rem; background-color: #fff; border-radius: 0.16rem; bottom: -13rem; left: 50%; margin-left: -2.2rem; border: solid 1px #ddd; -webkit-transition: all .3s ease-in; transition: all .3s; z-index: 2; }
+
+.footer .first-list:first-child .second-list { width: 3.8rem; margin-left: -1.9rem; }
+
+.footer .second-list i { position: absolute; display: inline-block; left: 50%; margin-left: -0.2rem; bottom: -0.4rem; width: 0.4rem; height: 0.4rem; background-image: url(../images/m-arr.png?v=1a681); background-size: 0.4rem 0.4rem; }
+
+.footer .second-list a { display: block; width: 100%; height: 1.96rem; border-bottom: solid 1px #ddd; text-align: center; line-height: 1.96rem; font-size: 0.6rem; color: #666; }
+
+.footer .second-list a:last-child { border-bottom: none; }
+
+.footer .second-list.act { bottom: 2.6rem; }
+
+.bless-title { display: inline-block; background-image: url(../images/m-blessicon.png?v=2e310); background-size: 0.52rem 0.48rem; background-repeat: no-repeat; font-size: 0.56rem; color: #747474; text-indent: 0.7rem; }
+
+.bless-lists { width: 100%; height: auto; overflow: hidden; padding: 0 1rem; margin: 0.6rem 0; }
+
+.bless-lists li { width: 100%; height: auto; overflow: hidden; }
+
+.bless-lists img { width: 1.68rem; height: 1.68rem; border-radius: 50%; border: solid 0.06rem #ffb700; float: left; }
+
+.bless-lists p { float: left; margin-left: 0.2rem; width: 11rem; font-size: 0.52rem; line-height: 0.8rem; color: #747474; text-align: left; padding-top: 0.4rem; }
+
+.bless-lists span { font-size: 0.64rem; color: #f20000; }
+
+li { position: relative; }
+
+li .click-but { position: absolute; top: 0.5rem; right: 0.4rem; width: 1.92rem; height: 1.94rem; background-image: url(../images/m-icon.png?v=be689); background-size: 1.92rem 1.94rem; animation: anmation1 0.7s linear infinite alternate; -webkit-animation: anmation1 0.7s linear infinite alternate; -moz-animation: anmation1 0.7s linear infinite alternate; }
+
+@keyframes anmation1 { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  100% { -webkit-transform: scale(0.7); transform: scale(0.7); } }
+
+@-webkit-keyframes anmation1 { 0% { -webkit-transform: scale(1); }
+  100% { -webkit-transform: scale(0.7); } }

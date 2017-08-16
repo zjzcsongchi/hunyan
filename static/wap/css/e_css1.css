@@ -1,0 +1,77 @@
+	.m{ 
+			
+			 width: 100%;  
+			 margin-left: auto;
+			 margin-right: auto; 
+			 margin-top: auto;
+	    }
+		#my-video{
+			 width: 100%;
+			height:300px;
+			/*height:360px;*/
+			padding: 0px;
+			margin: 0px;
+			object-fit: cover;
+			 /*background:transparent url(../images/v1.png)  no-repeat;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;*/
+			
+		}
+		
+		.video-js .vjs-big-play-button{
+			display: none;
+			position: absolute;
+			top:38%;
+			left:38%;
+			background: ;
+		}
+
+.main2{
+	/*padding-top: 50px;*/
+	width: 100%;
+	height:500px;
+	background-image: url(../images/bg1.png);
+	background-repeat:no-repeat ;
+	background-position: center;
+	background-size:100% 100%;
+	/*background-image: 100% 100%;*/
+	position: relative;
+	overflow: hidden;
+	top:0px;
+	left:0px;
+}
+.img1{
+	width: 100%;
+	/*height:100%*/
+	position: absolute;
+	top:30px;
+	left:-500px;
+}
+#spe1{
+	top:80px;
+}
+.img2{
+	width: 100%;
+	position: absolute;
+	top:250px;
+	right:-500px;
+}
+#spe2{
+	top:300px;
+}
+#index2 #my-video{
+			 width: 100%;
+			height:300px;
+			/*height:360px;*/
+			padding: 0px;
+			margin: 0px;
+			object-fit: cover;
+			/* background:transparent url(../images/v2.png)  no-repeat;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;*/
+			
+		}

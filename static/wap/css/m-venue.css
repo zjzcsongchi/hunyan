@@ -1,0 +1,330 @@
+@charset "UTF-8";
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+img { width: 100%; }
+
+.name { font-size: 0.8rem; font-weight: bold; color: #191919; margin-top: 0.8rem; margin-bottom: 0.7rem; display: block; }
+
+.text { font-size: 0.56rem; color: #676767; margin-top: 0.4rem; display: block; }
+
+.text span { font-weight: bold; font-size: 0.6rem; color: #4b4b4b; }
+
+.list-bg { width: 100%; height: 0.94rem; background-image: url(../images/list-bg.png?v=d8e20); margin-top: 0.2rem; background-size: 100% 0.94rem; }
+
+.venue-list { width: 100%; height: auto; text-align: center; margin-bottom: 1rem; }
+
+.venue-list li { width: 100%; }
+
+.venue-list .but { display: block; width: 5.9rem; height: 1.6rem; margin: 1rem auto; box-shadow: 0 0 3px 2px #ddd; background-color: #ffc12d; color: #fff; font-size: 0.8rem; line-height: 1.6rem; border-radius: 0.2rem; }
+
+.venue-list .but:hover { background-color: #f4ac00; }
+
+.venue-detail { text-align: center; }
+
+.venue-detail .list-bg { margin-top: 1.2rem; }
+
+.venue-detail .title { color: #ffc12d; font-size: 0.8rem; margin-bottom: 0.6rem; margin-bottom: 0.8rem; }
+
+.venue-detail .baner-title img { width: 13.36rem; height: 0.88rem; margin-top: 0.6rem; }
+
+.suspend-but { position: fixed; width: 100%; height: 2rem; bottom: 0; left: 0; z-index: 10; }
+
+.suspend-but a { display: block; background-color: rgba(255, 183, 0, 0.7); text-align: center; line-height: 2rem; font-size: 0.8rem; color: #fff; }
+
+.popup-destine { position: fixed; top: -150%; left: 50%; margin: -8.6rem 0 0 -6.5rem; z-index: 110; padding: 0.8rem; width: 13rem; height: 17.2rem; background-color: #fff; box-shadow: 0 0 10px 4px #444; border-radius: 0.2rem; -webkit-transition: all .8s ease-in; transition: all .8s; }
+
+.popup-destine .close { position: absolute; top: 0.5rem; right: 0.5rem; width: 0.4rem; height: 0.4rem; background-image: url(../images/m-close.png?v=fa965); background-size: 0.4rem 0.4rem; }
+
+.popup-destine .title { width: 100%; text-align: center; font-size: 0.72rem; color: #4e4e4e; margin-bottom: 0.6rem; }
+
+.popup-destine input, .popup-destine select, .popup-destine textarea { width: 100%; height: 1.36rem; border-radius: 0.16rem; border: solid 1px #c1c1c1; line-height: 1.36rem; padding: 0 0.2rem; margin-top: 0.44rem; }
+
+.popup-destine textarea { height: 2.6rem; }
+
+.popup-destine .message { width: 100%; color: #ff0000; text-align: center; height: 0.9rem; line-height: 0.9rem; }
+
+.popup-destine .but { display: block; width: 3.8rem; height: 1.2rem; margin: 0 auto; border-radius: 0.2rem; background-color: #ffb700; color: #fff; text-align: center; line-height: 1.2rem; font-size: 0.64rem; }
+
+.popup-destine.act { top: 50%; }
+
+.media-title { font-size: 0.72rem; color: #333; margin-top: 0.7rem; }
+
+.media-text { padding: 0.7rem 1.1rem; line-height: 0.9rem; margin-bottom: 0.7rem; text-indent: 2em; font-size: 0.6rem; }
+
+.media-chose { width: 100%; height: 1.6rem; position: fixed; top: 0; left: 0; background-color: #fff; overflow: hidden; z-index: 10; }
+
+.media-chose p { width: 100%; border-bottom: solid 1px #ddd; text-align: center; line-height: 1.6rem; color: #666; font-size: 0.64rem; }
+
+.media-chose p:first-child { text-align: left; text-indent: 6.4rem; background-repeat: no-repeat; background-position: 9.2rem center; background-image: url(../images/m-arror.png?v=c76ed); background-size: 0.52rem 0.3rem; }
+
+.media-chose.act { height: auto; }
+
+.media-chose.act p:first-child { background-image: url(../images/m-arror1.png?v=85225); }
+
+.media-detail .title { font-size: 0.72rem; color: #333; padding: 0.5rem 0.4rem; line-height: 1.1rem; font-weight: bold; }
+
+.media-detail .info { width: 100%; height: auto; overflow: hidden; padding: 0 0.4rem; color: #999; }
+
+.media-detail img { margin-top: 0.8rem; }
+
+.media-detail .detail-title { font-size: 0.72rem; color: #333; padding: 0 0.4rem; margin-top: 1rem; margin-bottom: 0.4rem; }
+
+.media-detail .detail-text { padding: 0 0.4rem; font-size: 0.6rem; color: #666; line-height: 1rem; text-indent: 2em; }
+
+.media-detail .all { display: block; width: 2.9rem; height: 0.9rem; color: #999; margin: 0 auto; margin-top: 1.5rem; border: solid 1px #b6b6b6; border-radius: 0.16rem; text-align: center; line-height: 0.9rem; }
+
+.media-detail .line { width: 13.8rem; height: 1px; background-color: #ccc; margin: 0 auto; margin-top: 2.5rem; }
+
+.media-detail .land { display: block; width: 1.96rem; height: 1.96rem; margin: 0 auto; margin-top: -0.96rem; background-image: url(../images/m-laud.png?v=fde3e); background-size: 1.96rem 1.96rem; }
+
+.media-detail .share { width: 100%; margin: 1.8rem 0; height: 1.28rem; }
+
+.media-detail .share span { float: left; text-indent: 1.2rem; line-height: 1.28rem; color: #666; background-repeat: no-repeat; background-position: 0.6rem center; background-image: url(../images/share.png?v=9bc88); background-size: 0.42rem 0.4rem; }
+
+.media-detail .share a { display: block; float: left; width: 1.3rem; height: 1.28rem; background-size: 1.3rem 1.28rem; margin-left: 0.4rem; }
+
+.media-detail .share a:nth-child(2) { background-image: url(../images/share1-1.png?v=b1432); }
+
+.media-detail .share a:nth-child(2):hover { background-image: url(../images/share1.png?v=e4be3); }
+
+.media-detail .share a:nth-child(3) { background-image: url(../images/share2-1.png?v=e6b76); }
+
+.media-detail .share a:nth-child(3):hover { background-image: url(../images/share2.png?v=5f3f0); }
+
+.media-detail .share a:nth-child(4) { background-image: url(../images/share3-1.png?v=5e9b0); }
+
+.media-detail .share a:nth-child(4):hover { background-image: url(../images/share3.png?v=fa489); }
+
+.drink-list { margin-top: 2rem; margin-bottom: 1.6rem; }
+
+.drink-list img { border-bottom: solid 1px #ccc; }
+
+.drink-list .cont { width: 100%; padding: 0.6rem; background-color: #fff; }
+
+.drink-list .con { width: 100%; height: auto; margin-bottom: 0.6rem; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.drink-list .name { margin: 0; float: left; width: 50%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.drink-list .icon { display: inline-block; padding: 0.16rem 0.6rem; background-color: #ddd; color: #565656; font-size: 0.52rem; border-radius: 0.16rem; margin-right: 0.3rem; }
+
+.drink-list .line { width: 5.7rem; height: 0.3rem; border-bottom: dashed 1px #ccc; margin: 0 auto; }
+
+.drink-list .price { color: #d21718; float: right; max-width: 50%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.drink-list .price span { font-size: 0.76rem; font-weight: bold; }
+
+.drink-list .price p { display: inline-block; position: relative; padding: 0.1rem 0.2rem; background-color: #fa807d; color: #fff; border-radius: 0.1rem 0.1rem 0.1rem 0; margin-left: 0.6rem; }
+
+.drink-list .price i { display: inline-block; position: absolute; bottom: 0; left: -0.26rem; width: 0; height: 0; border-bottom: 0.3rem solid #fa807d; border-left: 0.4rem solid transparent; }
+
+.drink-list .but { display: block; width: 4rem; height: 1.2rem; background-color: #ffc12d; color: #fff; font-size: 0.6rem; line-height: 1.2rem; border-radius: 0.2rem; float: right; text-align: center; }
+
+.drink-list .but:hover { background-color: #f4ac00; }
+
+.drink-list .borbot { border-bottom: dashed 1px #ccc; padding-bottom: 0.6rem; }
+
+.drink-list .num { float: left; width: 2rem; line-height: 1.2rem; color: #666; font-size: 0.6rem; }
+
+.drink-list .but1 { float: left; height: 1.2rem; line-height: 1.12rem; width: 1.2rem; text-align: center; color: #666; border: solid 1px #ccc; font-size: 0.6rem; }
+
+.drink-list input { float: left; width: 1.56rem; text-align: center; height: 1.2rem; line-height: 1.12rem; border: solid 1px #ccc; border-left: 0; border-right: 0; }
+
+.drink-list .list-bg { margin: 0; }
+
+.drink-detail .title { font-size: 0.72rem; color: #131312; padding: 0.7rem 0.4rem; line-height: 1.1rem; }
+
+.drink-detail .price { color: #d21718; padding: 0 0.4rem; font-size: 0.6rem; }
+
+.drink-detail .price span { font-size: 0.96rem; font-weight: bold; }
+
+.drink-detail .price p { display: inline-block; position: relative; padding: 0.1rem 0.2rem; background-color: #fa807d; color: #fff; border-radius: 0.1rem 0.1rem 0.1rem 0; margin-left: 0.6rem; }
+
+.drink-detail .price i { display: inline-block; position: absolute; bottom: 0; left: -0.2rem; width: 0; height: 0; border-bottom: 0.4rem solid #fa807d; border-left: 0.2rem solid transparent; }
+
+.drink-detail .head { width: 100%; color: #ffc12d; font-size: 0.8rem; margin-top: 0.8rem; text-align: center; }
+
+.drink-info { width: 100%; padding: 0 0.4rem; margin-top: 0.8rem; }
+
+.drink-info li { font-size: 0.52rem; margin-top: 0.6rem; color: #333; }
+
+.drink-info span { color: #888; }
+
+.detail-list { width: 100%; padding: 0 0.4rem; margin: 0.8rem 0; height: auto; overflow: hidden; margin-bottom: 1.2rem; }
+
+.detail-list li { margin-top: 0.8rem; width: auto; height: auto; overflow: hidden; }
+
+.detail-list label { float: left; line-height: 1.2rem; font-size: 0.6rem; color: #666; width: 2rem; }
+
+.detail-list .list { float: left; width: 11.4rem; }
+
+.detail-list .list p { float: left; padding: 0.3rem 0.7rem 0.3rem 0.4rem; color: #333; border: solid 1px #b5b5b5; margin: 0 0.3rem 0.4rem 0; position: relative; }
+
+.detail-list .list p.act { border: solid 1px #ffb700; }
+
+.detail-list .list p.act i { display: inline-block; position: absolute; bottom: 0; right: 0; width: 0.62rem; height: 0.62rem; background-size: 0.62rem 0.62rem; background-image: url(../images/user-icon9.png?v=dfea4); }
+
+.detail-list .but { display: block; float: left; width: 1rem; height: 1.2rem; text-align: center; line-height: 1.2rem; border: solid 1px #b5b5b5; color: #777; }
+
+.detail-list input { float: left; height: 1.2rem; border: none; border-top: solid 1px #b5b5b5; border-bottom: solid 1px #b5b5b5; text-align: center; line-height: 1.2rem; width: 1.4rem; }
+
+.martop80 { margin-top: 1.6rem; }
+
+/*11.4新增*/
+.venue-list { /*margin-top: 1.8rem;*/ }
+
+.venue-chose { width: 100%; height: 1.78rem; position: fixed; top: 0; left: 0; background-color: #fff; border-bottom: solid 1px #ddd; z-index: 10; padding: 0.6rem 0; }
+
+.venue-chose li { float: left; text-align: center; width: 4.98rem; height: 100%; border-right: solid 1px #ddd; font-size: 0.6rem; color: #666; }
+
+.venue-chose li:nth-child(3) { border-right: none; }
+
+.venue-chose li.act, .venue-chose li:hover { color: #ffb700; }
+
+/*11.11新增*/
+.chose-list { width: 100%; height: auto; overflow: hidden; padding: 0 1rem; }
+
+.chose-list li { float: left; width: 2.5rem; height: 1rem; border: solid 1px #888; border-radius: 0.2rem; text-align: center; line-height: 0.96rem; color: #888; font-size: 0.56rem; margin-right: 1rem; }
+
+.chose-list li:nth-child(4) { margin-right: 0; }
+
+.chose-list li.act, .chose-list li:hover { color: #ffb700; border: solid 1px #ffb700; }
+
+.img-list { width: 100%; margin-top: 0.2rem; display: none; height: auto; overflow: hidden; }
+
+.img-list img { width: 100%; margin-top: 0.3rem; }
+
+.img-list.act { display: block; }
+
+.wap-banner1, .wap-banner2 { position: relative; height: auto; margin-bottom: 2rem; }
+
+.swiper-pagination1, .swiper-pagination2 { width: 100%; bottom: -0.8rem; position: absolute; text-align: center; }
+
+.swiper-pagination1 .swiper-pagination-bullet, .swiper-pagination2 .swiper-pagination-bullet { width: 8px; height: 8px; display: inline-block; border-radius: 100%; background: #ddd; margin: 0 0.2rem; }
+
+.swiper-pagination1 .swiper-pagination-bullet-active, .swiper-pagination2 .swiper-pagination-bullet-active { background-color: #ffb700; }
+
+.rank-list { width: 13.4rem; height: auto; overflow: hidden; margin: 0 auto; background-color: #eff0f3; border-radius: 0.1rem; overflow: hidden; }
+
+.rank-list li { width: 100%; margin-bottom: 0.5rem; position: relative; }
+
+.rank-list li:first-child { width: 100%; height: 2.08rem; text-align: center; line-height: 2.08rem; color: #fff; text-shadow: 1px 1px 1px #aaa; font-size: 0.64rem; margin-bottom: 0.6rem; background-image: url(../images/mvenue-bg1.png?v=b57e8); background-size: 100%; }
+
+.rank-list .tip { position: absolute; left: 0.3rem; top: 50%; margin-top: -0.86rem; width: 1.36rem; text-align: center; height: 1.72rem; line-height: 1.72rem; color: #72706c; font-size: 0.56rem; background-position: center; background-repeat: no-repeat; }
+
+.rank-list li:nth-child(2) .tip { background-image: url(../images/m-ban4.png?v=26c22); background-size: 1.36rem 1.52rem; }
+
+.rank-list li:nth-child(3) .tip { background-image: url(../images/m-ban5.png?v=59f8e); background-size: 1rem 0.66rem; }
+
+.rank-list li:nth-child(4) .tip { background-image: url(../images/m-ban6.png?v=ea7ad); background-size: 0.76rem 0.5rem; }
+
+.rank-list img { position: absolute; left: 2.1rem; top: 50%; margin-top: -0.86rem; width: 1.72rem; height: 1.72rem; border: solid 0.06rem #ffb700; border-radius: 50%; }
+
+.rank-list .list-name { padding-left: 4.2rem; text-align: left; line-height: 1.72rem; color: #5a5a5a; font-size: 0.52rem; width: 10.6rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.rank-list .count { position: absolute; left: 10.7rem; top: 50%; margin-top: -0.86rem; text-indent: 1rem; line-height: 1.72rem; color: #5a5a5a; font-size: 0.52rem; background-image: url(../images/m-bless2.png?v=c7997); background-size: 0.9rem 0.9rem; background-position: left center; background-repeat: no-repeat; }
+
+.rank1 li:first-child { background-image: url(../images/mvenue-bg2.png?v=35317); }
+
+.rank1 .cont { padding-left: 4.2rem; width: 10.8rem; height: auto; overflow: hidden; text-align: left; font-size: 0.52rem; min-height: 1.72rem; }
+
+.rank1 .list-title { color: #5a5a5a; margin-top: 0.3rem; }
+
+.rank1 .list-text { color: #232323; line-height: 0.8rem; margin-top: 0.2rem; }
+
+.rank1 .count { left: 11.1rem; background-image: url(../images/m-ban7.png?v=052b9); background-size: 0.94rem 0.94rem; text-indent: 1.1rem; margin-left: 0.2rem; }
+
+.vip-list { width: 100%; height: auto; overflow: hidden; padding: 0 0.4rem; }
+
+.vip-list li { float: left; margin: 0 0.2rem 0.2rem 0; width: 3.4rem; height: 1.94rem; position: relative; overflow: hidden; }
+
+.vip-list li:nth-child(4n) { margin-right: 0; }
+
+.vip-list img { width: 100%; height: 100%; }
+
+.vip-list .img-bg { position: absolute; top: -100%; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.2); -webkit-transition: all .5s ease-in; transition: all .5s; }
+
+.vip-list li:hover .img-bg { top: 0; }
+
+.suspend-but.drink a { text-indent: 6.7rem; text-align: left; }
+
+.suspend-but.drink .car { position: absolute; width: 1.2rem; height: 1.2rem; background-color: #fff; border-radius: 50%; top: 0.4rem; left: 5.2rem; background-repeat: no-repeat; background-position: center; background-image: url(../images/user-icon8-1.png?v=b85dc); background-size: 0.68rem 0.54rem; }
+
+.suspend-but.drink .car p { position: absolute; background-color: #ff803b; border-radius: 50%; color: #fff; padding: 0.1rem 0.2rem; top: -0.3rem; right: -0.2rem; }
+
+.page-car { position: fixed; width: 1.2rem; height: 1.2rem; left: 0.8rem; bottom: 2.8rem; background-color: rgba(255, 183, 0, 0.5); border-radius: 50%; background-repeat: no-repeat; background-position: center; background-image: url(../images/user-icon8.png?v=ed926); background-size: 0.68rem 0.54rem; display: block; z-index: 10; }
+
+.page-car p { position: absolute; background-color: #ff803b; border-radius: 50%; color: #fff; padding: 0.1rem 0.2rem; top: -0.3rem; right: -0.2rem; }
+
+.u-flyer { display: block; width: 1.2rem; height: 1.2rem; border-radius: 50%; position: fixed; z-index: 9999; }
+
+.bottom-cont { position: fixed; width: 100%; height: 2rem; border-top: solid 1px #dbdad8; background-color: #fff; bottom: 0; left: 0; z-index: 10; }
+
+.bottom-cont .car { position: relative; width: 1.2rem; height: 1.2rem; float: left; border-radius: 50%; background-color: #7f7f7f; margin-left: 0.8rem; margin-top: 0.4rem; background-image: url(../images/user-icon8.png?v=ed926); background-size: 0.68rem 0.54rem; background-repeat: no-repeat; background-position: 0.24rem center; }
+
+.bottom-cont .car p { position: absolute; color: #fff; background-color: #ff803b; border-radius: 50%; top: -0.26rem; right: -0.1rem; display: block; padding: 0.1rem 0.2rem; }
+
+.bottom-cont .text { float: left; line-height: 2rem; font-size: 0.52rem; color: #333; font-weight: bold; margin-top: 0; margin-left: 0.6rem; }
+
+.bottom-cont .text span { color: #ffb700; margin: 0 0.3rem; }
+
+.bottom-cont .but { float: right; width: 3.76rem; height: 100%; display: block; text-align: center; line-height: 2rem; color: #fff; font-size: 0.52rem; background-color: #ff803b; }
+
+.bottom-cont .unable { background-color: #aaa; }
+
+.bottom-cont .enter { float: right; height: 100%; background-color: #f4bc2f; width: 3.76rem; text-align: center; line-height: 2rem; color: #fff; font-size: 0.6rem; }
+
+
+.drink-list .detail-list{padding:0;}

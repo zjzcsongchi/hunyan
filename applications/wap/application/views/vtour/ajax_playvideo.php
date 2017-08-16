@@ -1,0 +1,1 @@
+<video style="width:100%; height:200px;" src="<?php echo get_video_url($info['source_url']) ?>" controls autoplay></video>

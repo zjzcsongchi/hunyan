@@ -1,0 +1,50 @@
+/***图片上传**/
+.proCont {width: 100%;position: absolute;bottom: 0;left: 0;}
+
+.proCont p {text-align: center;font-size: 12px;color: #f18a1b;}
+
+.pro_pic {width: 100%;height: 10px;overflow: hidden;background: #fff;border: 1px solid #f18a1b;}
+
+.pro_cont {display: block;background: #f18a1b; height: 100%;}
+
+.close {display: block;background: url(../images/close.png) no-repeat;width: 22px;height: 22px;position: absolute;top: 6px;right: 8px; opacity:1}
+
+.pic {float: left;width: 220px;height: 175px;border: 1px solid #a0a0a0; margin: 10px 0 0 0;overflow: hidden;position: relative;}
+
+.pic img {max-width: 100%;height: 175px;}
+
+.pro_gre {background: rgba(19, 16, 16, 0.26);}
+
+.pic-add {border: 1px dashed #a0a0a0;}
+
+.background td:nth-child(2){
+	background-color:#E65F0E;
+}
+.solar_time>td{
+	border-top:0px !important;
+}
+.other_tr td{
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+/**进度spin背景**/
+#back_bg{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../images/opacity.png?v=7e766);
+    z-index: 110;
+	display:none;
+}
+/**打印控制**/
+@media print {
+	.no_print {
+		display:none;
+	}
+}
+/**控制表格内边框**/
+.table_padding > tbody > tr > td, .table_padding > tbody > tr > th{
+    padding:3px !important;
+}

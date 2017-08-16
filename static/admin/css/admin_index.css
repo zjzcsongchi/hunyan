@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+html, body { min-height: 100%; width: 100%; font-family: 微软雅黑; height: auto; background: #f9f4f9; font-size: 14px; }
+
+.page-cont { width: 100%; height: auto; overflow: hidden; margin-top: 50px; }
+
+.page-cont .logo {width: 200px;height: 200px;background-image: url(../images/admin-logo.png?v=b71be);background-size: 100% 100%;margin: 0 auto;}
+
+.page-cont .title { width: 380px; height: 78px; background-image: url(../images/admin-title.png?v=2c972); margin: 0 auto; margin-top: 30px; }
+
+.page-cont .link-list { width: 100%; text-align: center; height: auto; overflow: hidden; }
+
+.page-cont .link-list a { padding: 5px 15px; border: solid 1px #ffb700; color: #ffb700; display: inline-block; text-decoration: none; font-size: 18px; margin: 25px 10px; box-shadow: 0 0 1px 1px #ddd; }

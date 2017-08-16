@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.receipt p{line-height: 30px;}
+
+.receipt label{
+    font-weight:400;
+}
+
+.receipt input, .receipt .Wdate {
+    outline: none;
+    border: none;
+    font-family: 微软雅黑;
+}
+
+.receipt input[type="text"], .receipt mark{
+    height: 24px;
+    line-height: 24px;
+    text-indent: 5px;
+    border-bottom: solid 1px #333;
+    background-color: #ffffff
+}
+
+.receipt input[type="datetime-local"], .receipt input[type="date"] {
+    height: 24px;
+    line-height: 24px;
+    text-indent: 0px;
+    border-bottom: solid 1px #333;
+    background-color: #ffffff
+}
+
+.cont50 o{
+	border-bottom: solid 1px #333;
+    background-color: #ffffff
+	
+}
+.receipt .Wdate-ymd{
+	width: 90px;
+}
+
+.receipt .input-small{
+	width: 35px;
+}
+
+.receipt .cont { width: 100%; height: auto; overflow: hidden; margin-top: 10px; line-height: 30px; font-size: 15px; }
+.receipt .cont50 { float: left; width: 45%; margin-top: 10px; line-height: 25px; }
+
+
+
+/**打印控制**/
+@media print {
+	textarea{resize: none;overflow-y: hidden;}
+}

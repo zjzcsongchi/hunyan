@@ -1,0 +1,28 @@
+label{
+	font-weight: 200;
+}
+form h6{
+	font-weight: 900;
+	font-size: 16px;
+}
+.form1 li label{
+	font-weight: 200;
+}
+table{
+	background: #F4F4F4;
+}
+.mif ul{
+	margin-bottom: 0px;
+}
+.form2 ul{
+	margin-bottom: 0px;
+}
+.form2 ul li{
+	line-height: 30px;
+}
+.child:not(:first-child) label{
+	margin-top: 10px;
+}
+table  .text-left{
+	text-align: left;
+}

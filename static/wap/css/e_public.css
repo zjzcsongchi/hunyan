@@ -1,0 +1,45 @@
+body,ul,ol,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+
+body{background:#fff;color:#333;font-size:14px; font-family: Helvetica;font-family: inherit;font-weight: normal;} 
+
+ul,ol{list-style-type:none;}
+ 
+select,img,select{vertical-align:middle;} 
+
+input{
+	vertical-align:top;
+}
+
+a{color:#2d374b;text-decoration:none}  
+
+/*a:hover{color:#cd0200;text-decoration:underline}*/ 
+/*a:visited{color:#800080;}*/ 
+
+a:hover,a:active,a:focus{color:#c00;cursor: pointer;} 
+
+em{font-style:normal} 
+
+li{list-style:none} 
+
+img{border:0;margin: 0;padding: 0;} 
+
+table{border-collapse:collapse;border-spacing:0} 
+
+button, input, select, textarea { font-size:100%; } 
+
+p{word-wrap:break-word} 
+
+.rt{
+	float: right;
+}
+
+h1,h2{
+	font-weight: 500;
+}
+
+.lf{
+	float: left;
+}
+.clear1{
+	clear: both;
+}

@@ -1,0 +1,118 @@
+.control_area{
+    position:absolute;
+    top:80px;
+    right:30px;
+    z-index:1;
+}
+
+.bgmusic_btn{
+	margin-top:20px;
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 32px; height: 33px; 
+	background-position: -64.5px -334.569px; 
+	background-size: 350px 456.923px; 
+}
+.voice_btn{
+	display:none;
+	position: absolute; 
+	margin:0 auto;
+	z-index: 1; 
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 262px; height: 82px; 
+	background-position: -240px 0px; 
+	background-size: 700px 900px; 
+}
+.autoscan_btn{
+	margin-top:20px;
+	overflow: visible; 
+	opacity: 1; 
+	cursor: pointer; 
+	pointer-events: auto; 
+	background-image: url("../../krpano/skin/skin_icon.png"); 
+	width: 32px; height: 33px; 
+	background-position: -130px -334px; 
+	background-size: 350px 456.923px; 
+}
+
+.talk_cover{
+	margin-top:20px;
+    width: 32px;
+    height: 32px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    border: 1px solid #85623E;
+}
+.talk_btn{
+	overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    background-image: url(../../krpano/skin/talk.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 25px 20px;
+    background-position: 3px 5px;
+}
+.talk_manage_cover{
+	margin-top:20px;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 32px;
+    border: 1px solid #85623E;
+}
+.talk_hide{
+	overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    background-image: url(../../krpano/skin/talk_hide.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 25px 20px;
+    background-position: 3px 5px;
+}
+.talk_show{
+	overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    background-image: url(../../krpano/skin/talk_show.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 25px 20px;
+    background-position: 3px 5px;
+}
+.qrcode{
+	position: absolute;
+    bottom: 74px;
+    right: 20px;
+    width: 148px;
+    height: 184px;
+    background:rgba(0,0,0,0.5);
+    z-index: 1;
+    border-radius: 7px;
+}
+.qrcode p{
+	text-align:center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color:#fff;
+}
+.qrcode img{
+	width:113px;
+	height:113px;
+	text-align:center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,340 @@
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; -webkit-appearance: none;}
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+@font-face { font-family: 'helvetica'; src: url(../fonts/HelveticaNeueLTPro-UltLtEx.otf?v=cba64) format("truetype"); }
+
+* { outline: 0; -webkit-tap-highlight-color: transparent; -webkit-box-sizing: border-box; font-family: "Microsoft Yahei"; line-height: 1; font-size: 0.48rem; }
+
+html { min-width: 6.4rem; height: 100%; }
+
+body { margin: 0 auto; min-width: 6.4rem; max-width: 15rem; box-sizing: border-box; line-height: 1; overflow-x: hidden; background: #fff; }
+
+body.grey { background: #eee; }
+
+a { text-decoration: none; }
+
+input { font-family: "Microsoft Yahei"; font-size: 0.6rem; color: #aaa; border: none; }
+
+.l { float: left; }
+
+.r { float: right; }
+
+.mainfix { overflow-y: scroll; width: 15rem; overflow: hidden; margin: 0 auto; position: relative; height: auto; min-height: 26rem; }
+
+.page-bg { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 100; display: none; }
+
+.page-bg.act { display: block; }
+
+.banner { width: 100%; height: 9.1rem; position: relative; }
+
+.banner img { width: 100%; height: 9.1rem; }
+
+.banner .tip { position: absolute; top: 0; left: 0; width: 100%; height: 2.52rem; background-image: url(../images/m-blesbg.png?v=da0c2); background-size: 100% 2.52rem; }
+
+.banner .folwer { float: left; margin-left: 0.7rem; margin-top: 0.1rem; width: 2.9rem; height: 2.04rem; background-size: 2.9rem 2.04rem; background-image: url(../images/m-flower.png?v=70429); }
+
+.banner .text { float: left; color: #fff; margin-left: 1.7rem; font-size: 0.6rem; line-height: 1.76rem; }
+
+.banner .tip i { display: inline-block; float: left; margin-left: 0.4rem; margin-top: 0.5rem; width: 0.6rem; height: 0.6rem; background-size: 0.6rem 0.6rem; background-image: url(../images/m-bless2.png?v=c7997); }
+
+.banner .name-cont { position: absolute; width: 8.08rem; height: 1.7rem; left: 50%; margin-left: -4.04rem; background-color: #252525; border-radius: 1rem; bottom: -0.84rem; text-align: center; font-size: 0.6rem; font-weight: bold; color: #fff; line-height: 1.7rem; }
+
+.banner .name-cont span { margin-left: 0.2rem; }
+
+.banner .name-cont i { display: inline-block; margin: 0 0.2rem; }
+
+.banner .name-cont .men { width: 0.72rem; height: 0.72rem; background-image: url(../images/m-bless4.png?v=30fc3); background-size: 0.72rem 0.72rem; }
+
+.banner .name-cont .women { width: 0.52rem; height: 0.78rem; background-image: url(../images/m-bless5.png?v=5bf5f); background-size: 0.52rem 0.78rem; }
+
+.banner .count { position: absolute; bottom: 1.8rem; right: 0.8rem; border-radius: 0.6rem; height: 1.1rem; padding: 0 0.6rem 0 1.5rem; background-color: rgba(0, 0, 0, 0.6); color: #fff; font-size: 0.52rem; line-height: 1.1rem; }
+
+.banner .count p { position: absolute; top: -0.4rem; left: -0.8rem; width: 1.92rem; height: 1.92rem; background-color: #d81b18; border-radius: 50%; background-repeat: no-repeat; }
+
+.banner .count p i { cursor: pointer; position: absolute; width: 1.16rem; height: 1.04rem; left: 50%; top: 50%; margin: -0.52rem -0.58rem; display: inline-block; background-position: center; background-size: 1.16rem 1.04rem; background-image: url(../images/m-bless3.png?v=19c1b); animation: myfirst1 0.7s linear infinite alternate; -webkit-animation: myfirst1 0.7s linear infinite alternate; -moz-animation: myfirst1 0.7s linear infinite alternate; }
+
+.banner .count p.act { background-color: #7f7f7f; }
+
+.banner .count p.act i { animation-play-state: paused; -webkit-animation-play-state: paused; -moz-animation-play-state: paused; }
+
+.banner .name-cont .men { width: 0.72rem; height: 0.72rem; background-image: url(../images/m-bless4.png?v=30fc3); background-size: 0.72rem 0.72rem; }
+
+.banner .name-cont .women { width: 0.52rem; height: 0.78rem; background-image: url(../images/m-bless5.png?v=5bf5f); background-size: 0.52rem 0.78rem; }
+
+.flower-cont { width: 100%; padding: 1rem 0.8rem; text-align: center; padding-bottom: 1.2rem;}
+
+.flower-cont img { width: 6.18rem; height: 4.36rem; }
+
+.flower-cont .cont { width: 100%; height: auto; overflow: hidden; margin-top: 0.6rem; }
+
+.flower-cont .text { float: left; font-size: 0.52rem; color: #444; width: 4rem; text-align: left; line-height: 1.1rem; }
+
+.flower-cont a { cursor: pointer; float: left; display: block; color: #ffb700; font-size: 0.64rem; font-weight: bold; height: 1.46rem; width: 1.4rem; text-align: center; line-height: 1.45rem; border: solid 1px #d0d0d0; }
+
+.flower-cont .but1 { border-radius: 0.16rem 0 0 0.16rem; }
+
+.flower-cont .but2 { border-radius: 0 0.16rem 0.16rem 0; }
+
+.flower-cont input { float: left; width: 2rem; border: none; border-top: solid 1px #d0d0d0; border-bottom: solid 1px #d0d0d0; height: 1.45rem; line-height: 1.45rem; text-align: center; }
+
+.flower-cont button { cursor: pointer; float: right; width: 3.7rem; height: 1.45rem; background-color: #ffb700; text-align: center; line-height: 1.45rem; color: #fff; border-radius: 0.2rem; border: none; }
+
+.flower-cont button:hover { background-color: #e5a400; }
+
+.list-bg { width: 100%; height: 0.94rem; background-image: url(../images/list-bg.png?v=d8e20); }
+
+.coment-cont { text-align: center; }
+
+.coment-cont .page-title { color: #ffc12d; font-size: 0.8rem; margin-bottom: 0.4rem; margin-top: 0.4rem; }
+
+.coment-cont .bless-title { display: inline-block; background-image: url(../images/m-blessicon.png?v=2e310); background-size: 0.52rem 0.48rem; background-repeat: no-repeat; font-size: 0.56rem; color: #747474; text-indent: 0.7rem; }
+
+.coment-cont .more { font-size: 0.52rem; color: #b2b2b2; margin-bottom: 1.2rem; display: block; }
+
+.coment-list { width: 100%; padding: 0 0.8rem; text-align: left; }
+
+.coment-list li { width: 100%; margin: 0.7rem 0; height: auto; overflow: hidden; }
+
+.coment-list img { width: 100%; height: 100%; }
+
+.coment-list .head1 { float: left; width: 1.6rem; height: 1.72rem; border-radius: 50%; border: solid 0.06rem #ffb700; overflow: hidden; }
+
+.coment-list .cont { float: right; width: 11.5rem; padding-bottom: 0.7rem; border-bottom: solid 1px #dcdcdc; margin-top: 0.6rem; }
+
+.coment-list .con { width: 100%; height: auto; min-height: 0.72rem; }
+
+.coment-list .name { float: left; font-size: 0.56rem; color: #b2b2b2; line-height: 0.72rem; }
+
+.coment-list .name span { font-weight: 0.48rem; margin-left: 0.8rem; }
+
+.coment-list .laud, .coment-list .coment { cursor:pointer; background-repeat: no-repeat; background-position: right center; height: 0.9rem; line-height: 0.9rem; padding-right: 1rem; background-size: 0.9rem 0.9rem; float: right; color: #b2b2b2; }
+
+.coment-list .laud {cursor:pointer; background-image: url(../images/m-ban7.png?v=adaca); }
+
+.coment-list .laud.act {cursor:pointer; background-image: url(../images/m-ban7-1.png?v=6c5a7); color: #ffb700; }
+
+.coment-list .line { float: right; width: 0px; height: 0.4rem; background-color: #616161; margin: 0.28rem 0.3rem; display: inline-block; }
+
+.coment-list .coment { cursor:pointer; background-image: url(../images/m-bless6.png?v=57dc3); }
+
+.coment-list .text { color: #232323; font-size: 0.52rem; line-height: 0.8rem; padding-top: 0.3rem; }
+
+.coment-list .detail-cont { width: 100%; padding: 0; margin-top: 0; background-color: #f3f3f3; border-radius: 0.2rem; height: 0; overflow: hidden; }
+
+.coment-list input { float: left; width: 8.8rem; height: 1rem; line-height: 1rem; padding: 0 0.2rem; border: solid 1px #d9d7d7; border-radius: 0.16rem; }
+
+.coment-list button { float: right; margin-top: 0.1rem; width: 1.72rem; height: 0.8rem; line-height: 0.8rem; text-align: center; color: #fff; background-color: #ffb700; border-radius: 0.16rem; border: none; }
+
+.coment-list button:hover { background-color: #e5a400; }
+
+.coment-list .second-list { width: 100%; height: auto; overflow: hidden; }
+
+.coment-list .list { width: 100%; height: auto; overflow: hidden; margin-top: 0.5rem; }
+
+.coment-list .head2 { float: left; width: 1.32rem; height: 1.32rem; border-radius: 50%; border: solid 0.04rem #ffb700; overflow: hidden; }
+
+.coment-list .list-cont { float: right; width: 9.2rem; margin-top: 0.4rem; }
+
+.coment-list .list-cont .name { font-size: 0.52rem; }
+
+.coment-list .list-cont .text { padding-top: 0.1rem; }
+
+.coment-list .click-but {cursor:pointer; text-align: center; color: #b2b2b2; font-size: 0.52rem; margin: 0.9rem 0; position: relative; }
+
+.coment-list .click-but i {cursor:pointer; display: inline-block; position: absolute; left: 50%; margin-left: -0.32rem; bottom: -0.6rem; background-image: url(../images/m-arror.png?v=c76ed); background-size: 0.64rem 0.36rem; width: 0.64rem; height: 0.36rem; }
+
+.coment-list .click-but.act i {cursor:pointer; background-image: url(../images/m-arror1.png?v=85225); }
+
+.coment-list .detail-cont.act { padding: 0.3rem; margin-top: 0.5rem; height: auto; }
+
+.page-bless { position: fixed; display: block; width: 3.16rem; height: 5.16rem; top: 50%; margin-top: -2.58rem; background-image: url(../images/m-blessbut.png?v=bf853); background-size: 3.16rem 5.16rem; -webkit-transform-origin: 50% 100%; -ms-transform-origin: 50% 100%; transform-origin: 50% 100%; animation: myfirst 2s ease-in-out infinite alternate; -moz-animation: myfirst 2s ease-in-out infinite alternate; -webkit-animation: myfirst 2s ease-in-out infinite alternate; }
+
+.page-bless a { display: block; width: 100%; height: 2.6rem; }
+
+.bless-cont { width: 100%; height: auto; overflow: hidden; padding: 0 0.8rem; margin-bottom: 1rem; text-align: center; }
+
+.bless-cont textarea { width: 100%; height: 7.2rem; margin-top: 0.6rem; border: solid 1px #c6c6c6; border-radius: 0.2rem; background-color: #efefef; line-height: 0.9rem; color: #444; font-size: 0.6rem; padding: 0.3rem 0.6rem; }
+
+.bless-cont .submit { display: block; width: 100%; height: 2rem; margin-top: 0.5rem; text-align: center; line-height: 2rem; color: #fff; font-size: 0.72rem; border-radius: 0.3rem; background-color: #ffb700;cursor: pointer; }
+
+.bless-cont .submit:hover { background-color: #e5a400; }
+
+.bless-cont .info-cont { width: 100%; margin-top: 1rem; }
+
+.bless-cont .img-cont { float: left; width: 2.3rem; height: 2.78rem; background-image: url(../images/img-bg.png?v=293b9); background-size: 2.3rem 2.78rem; padding: 0.1rem; }
+
+.bless-cont .img-cont img { width: 100%; height: 2.1rem; border-radius: 50%; }
+
+.bless-cont .cont { float: left; margin-left: 0.4rem; margin-top: 0.2rem; position: relative; width: 10.6rem; }
+
+.bless-cont .name { font-size: 0.72rem; color: #444; text-align: left; line-height: 1.42rem; }
+
+.bless-cont .cont-text { font-size: 0.52rem; color: #8e8e8e; margin-top: 0.3rem; text-align: left; }
+
+.bless-cont .now-name { font-size: 0.72rem; color: #444; position: absolute; left: 2.2rem; top: 0; line-height: 0.96rem; display: none; width: 8.4rem; text-align: left; }
+
+.bless-cont .now-name.act { display: block; }
+
+.bless-cont .to-edit { display: inline-block; margin-left: 0.6rem; width: 0.96rem; height: 0.96rem; background-image: url(../images/m-deit.png?v=42a62); background-size: 0.96rem 0.96rem; }
+
+.bless-cont .edit-cont { position: absolute; left: 2.2rem; top: 0; width: 8.4rem; display: none; }
+
+.bless-cont .edit-cont.act { display: block; }
+
+.bless-cont input { float: left; width: 6.2rem; height: 1.36rem; line-height: 1.36rem; border: solid 1px #c1c1c1; background-color: #efefef; border-radius: 0.16rem; text-indent: 0.2rem; }
+
+.bless-cont .but { float: left; margin-left: 0.2rem; color: #fff; padding: 0.26rem 0.3rem; background-color: #ffb700; font-size: 0.6rem; margin-top: 0.1rem; border-radius: 0.16rem; }
+
+.popup-message { position: fixed; z-index: 110; padding-top: 1.4rem; text-align: center; width: 12.8rem; height: 7.5rem; background-color: #fff; top: -100%; left: 50%; margin: -3rem 0 0 -6.4rem; box-shadow: 0 0 10px 4px #333; border-radius: 0.16rem; -webkit-transition: all .8s ease-in; transition: all .8s; }
+
+.popup-message .close { position: absolute; top: 0.5rem; right: 0.5rem; width: 0.4rem; height: 0.4rem; background-image: url(../images/m-close.png?v=fa965); background-size: 0.4rem 0.4rem; }
+
+.popup-message img { width: 1.92rem; }
+
+.popup-message .text { font-size: 0.72rem; color: #4e4e4e; padding-top: 0.5rem; }
+
+.popup-message a { width: 2.9rem; height: 1.2rem; line-height: 1.2rem; border-radius: 0.2rem; display: block; margin: 0 auto; margin-top: 1rem; background-color: #ffb700; color: #fff; }
+
+.popup-message.act { top: 50%; }
+
+@keyframes myfirst { 0% { -webkit-transform: rotate(-8deg); transform: rotate(-8deg); }
+  100% { -webkit-transform: rotate(8deg); transform: rotate(8deg); } }
+
+@-webkit-keyframes myfirst { 0% { -webkit-transform: rotate(-8deg); }
+  100% { -webkit-transform: rotate(8deg); } }
+
+@keyframes myfirst1 { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  100% { -webkit-transform: scale(0.7); transform: scale(0.7); } }
+
+@-webkit-keyframes myfirst1 { 0% { -webkit-transform: scale(1); }
+  100% { -webkit-transform: scale(0.7); } }
+
+
+.coment-list .laud { position: relative; }
+
+.coment-list .laud i { display: none; }
+
+.coment-list .laud.active i { color: #e30116; position: absolute; display: inline-block; top: -0.2rem; left: 0.3rem; z-index: 10; opacity: 0; animation: anmation 0.4s linear; -webkit-animation: anmation 0.4s linear; -moz-animation: anmation 0.4s linear; }
+
+@keyframes anmation { 0% { top: -0.3rem;
+    opacity: 1; }
+  100% { top: -1.8rem;
+    opacity: 0; } }
+
+@-webkit-keyframes anmation { 0% { top: -0.3rem;
+    opacity: 1; }
+  100% { top: -1.8rem;
+    opacity: 0; } }
+
+.birthday-cont { width: 100%; height: auto; padding-bottom: 1rem; }
+
+.birthday-cont .page-title { color: #ffc12d; font-size: 0.8rem; margin-bottom: 0.4rem; margin-top: 0.4rem; text-align: center; }
+
+.birthday-cont .bless-title { width: 100%; font-size: 0.56rem; color: #747474; text-align: center; }
+
+.birthday-cont ul { width: 100%; height: auto; margin-top: 0.7rem; }
+
+.birthday-cont li { width: 100%; height: auto; overflow: hidden; padding: 0.34rem 0.4rem; background-color: #f6f6f6; margin-top: 2px; }
+
+.birthday-cont img { float: left; width: 1.76rem; height: 1.76rem; border: solid 0.08rem #ffb700; border-radius: 50%; }
+
+.birthday-cont .name { width:3rem; float: left; margin-left: 0.4rem; line-height: 1.76rem; font-size: 0.52rem; color: #747474; }
+.birthday-cont .count {
+    float: right;
+	width: 8rem;
+    color: #747474;
+    display: inline-block;
+    padding-right: 5.1rem;
+    font-size: 0.4rem;
+    line-height: 1.76rem;
+}
+
+.birthday-cont .but { display: block; float: right; width: 3.6rem; height: 1.4rem; margin-top: -1.6rem; background-color: #fff; border: solid 1px #eaeaea; border-radius: 0.2rem; font-size: 0.52rem; color: #747474; text-indent: 0.6rem; line-height: 1.32rem; background-repeat: no-repeat; background-position: 2rem center; background-image: url(../images/m-blessicon1.png?v=1c430); background-size: 0.94rem 0.8rem; }
+
+.popup-birthday { position: fixed; z-index: 110; width: 14.2rem; height: 9.4rem; background-color: #fff; border-radius: 0.2rem; top: -150%; left: 50%; margin: -4.7rem 0 0 -7.1rem; -webkit-transition: all .8s ease-in; transition: all .8s; }
+
+.popup-birthday .img-cont { width: 100%; text-align: center; padding-top: 1.2rem; }
+
+.popup-birthday img { width: 5.76rem; height: 5.2rem; }
+
+.popup-birthday .cont { width: 100%; height: auto; margin-top: 0.7rem; }
+
+.popup-birthday p { float: left; width: 2.3rem; line-height: 1.16rem; font-size: 0.52rem; color: #444; text-align: right; }
+
+.popup-birthday .but { float: left; height: 1.16rem; width: 1.44rem; text-align: center; line-height: 1.06rem; color: #ffb700; font-size: 0.68rem; border: solid 1px #cacaca; font-weight: bold; }
+
+.popup-birthday input { float: left; width: 1.6rem; text-align: center; line-height: 1.1rem; height: 1.16rem; border: solid 1px #cacaca; border-left: 0; border-right: 0; }
+
+.popup-birthday .but1 { border-radius: 0.16rem 0 0 0.16rem; }
+
+.popup-birthday .but2 { border-radius: 0 0.16rem 0.16rem 0; }
+
+.popup-birthday .give { float: right; margin-right: 0.8rem; display: block; width: 3.6rem; height: 1.16rem; line-height: 1.16rem; color: #fff; background-color: #ffb700; text-align: center; border-radius: 0.2rem; font-size: 0.52rem; }
+
+.popup-birthday.act { top: 50%; }
+
+.popup-birthday .close{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: url(../images/m-close.png?v=fa965);
+    background-size: 0.8rem 0.8rem;
+    background-position-x: 0.1rem;
+    background-position-y: 0.2rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

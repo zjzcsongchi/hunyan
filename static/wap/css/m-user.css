@@ -1,0 +1,210 @@
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+.footer { margin-top: 1.6rem; }
+
+.user-top { width: 100%; height: 8.6rem; background-image: url(../images/m-userbg.jpg?v=3516d); background-size: cover; text-align: center; }
+
+.user-top img { width: 2.4rem; height: 2.4rem; border: solid 0.1rem #fbd268; border-radius: 50%; margin-top: 2.2rem; }
+
+.user-top .name { font-size: 0.72rem; color: #ffb700; margin-top: 0.6rem; }
+
+.user-top .edit { display: block; width: 3.6rem; height: 1rem; text-align: center; line-height: 1rem; color: #fff; background-color: #ffb700; box-shadow: 0 0.1rem 0 0 #c99c2b; border-radius: 0.16rem; margin: 0.4rem auto; }
+
+.user-nav { width: 100%; background-color: #fff; padding: 0.5rem 0; border-bottom: solid 1px #cacaca; height: auto; overflow: hidden; }
+
+.user-nav li { float: left; }
+
+.user-nav a { display: block; height: 0.76rem; line-height: 0.76rem; color: #666; font-size: 0.6rem; text-align: center; width: 3.7rem; border-right: solid 1px #ccc; }
+
+.user-nav li:last-child a { border-right: none; }
+
+.user-nav a.act { color: #ffb700; }
+
+.user-cont { width: 100%; margin-top: 0.4rem; padding: 0 0.8rem; height: auto; overflow: hidden; padding-bottom: 0.8rem; background-color: #fff; }
+
+.user-cont .user-title { width: 100%; padding-top: 0.6rem; color: #676767; line-height: 0.72rem; padding-bottom: 0.6rem; background-color: #fff; }
+
+.user-cont .user-title i { display: inline-block; width: 0.5rem; height: 0.48rem; background: #ffb700; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+.user-cont .user-title span { font-family: 'Dbsj'; color: #333; font-size: 0.72rem; margin: 0 0.4rem; }
+
+.venue-cont { width: 100%; height: auto; overflow: hidden; border: solid 1px #d9d9d9; background: #eee; position: relative; }
+
+.venue-cont img { width: 100%; height: 8.5rem; }
+
+.venue-cont .cont { width: 100%; padding: 0.6rem; position: relative; height: auto; }
+
+.venue-cont .triangle { position: absolute; display: inline-block; top: -0.4rem; left: 50%; margin-left: -0.2rem; width: 0; height: 0; border-left: 0.4rem solid transparent; border-right: 0.4rem solid transparent; border-bottom: 0.4rem solid #eee; }
+
+.venue-cont .title { width: 5.4rem; height: 1.3rem; font-size: 0.96rem; color: #ffb700; border-bottom: solid 1px #313131; margin-bottom: 0.4rem; white-space: nowrap; }
+
+.venue-cont .text { line-height: 0.9rem; color: #535353; float: left; width: 45%; white-space: nowrap; }
+
+.venue-cont .info { display: inline-block; margin-top: 0.6rem; padding: 0.3rem 0.5rem; border: solid 1px #ffb700; color: #ffb700; }
+
+.swiper-container { margin: 0 auto; position: relative; overflow: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; z-index: 1; }
+
+.swiper-wrapper { position: relative; width: 100%; -webkit-transition-property: -webkit-transform, left, top; -webkit-transition-duration: 0s; -webkit-transform: translate3d(0px, 0, 0); -webkit-transition-timing-function: ease; -webkit-transition-property: -webkit-transform, left, top; transition-property: transform, left, top; -webkit-transition-duration: 0s; transition-duration: 0s; -webkit-transform: translate3d(0px, 0, 0); transform: translate3d(0px, 0, 0); -webkit-transition-timing-function: ease; transition-timing-function: ease; box-sizing: content-box; }
+
+.swiper-free-mode > .swiper-wrapper { -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; margin: 0 auto; }
+
+.swiper-slide { float: left; box-sizing: content-box; }
+
+.device { width: 100%; height: auto; position: relative; padding-bottom: 1.2rem; }
+
+.swiper-container { width: 100%; overflow: hidden; height: auto; }
+
+.swiper-container1 { max-height: 23rem; }
+
+.swiper-container2 { max-height: 18rem; }
+
+.swiper-slide { height: auto; width: 100%; overflow: hidden; }
+
+.swiper-slide ul { width: 100%; height: auto; width: 100%; overflow: hidden; }
+
+.swiper-slide li { float: left; width: 6.3rem; background: #eee; border: solid 1px #d9d9d9; margin-bottom: 0.8rem; }
+
+.swiper-slide ul li:nth-child(2n) { float: right; }
+
+.swiper-slide img { width: 100%; height: 5.3rem; }
+
+.swiper-slide p { width: 100%; text-align: center; line-height: 1.6rem; font-size: 0.6rem; color: #666; }
+
+.pagination { position: absolute; left: 0; text-align: center; bottom: 5px; width: 100%; }
+
+.swiper-pagination-switch { display: inline-block; width: 10px; height: 10px; border-radius: 10px; background: #ccc; margin: 0 3px; cursor: pointer; }
+
+.swiper-active-switch { background: #ffb700; }
+
+.video-cont { padding: 0; background: #f4f4f4; border-bottom: solid 1px #aaa; }
+
+.video-cont .user-title { padding-left: 0.8rem; }
+
+.video-cont .video { width: 13.4rem; height: 10.6rem; background: #fff; margin: 0.8rem auto; padding: 0.4rem; box-shadow: 0 0 6px 2px #ccc; position: relative; }
+
+.video-cont img { width: 100%; height: 100%; }
+
+.video-cont .video-but { display: inline-block; position: absolute; top: 50%; left: 50%; margin: -1.2rem 0 0 -1.2rem; width: 2.4rem; height: 2.4rem; background-image: url(../images/video.png?v=8fc9a); background-size: 2.4rem 2.4rem; }
+
+.video-cont .date { padding-left: 1.1rem; font-family: 'helvetica'; font-size: 0.96rem; }
+
+.video-cont .title { margin-left: 1.1rem; margin-top: 0.5rem; font-size: 0.72rem; color: #333; font-weight: bold; width: 3rem; border-bottom: solid 1px #ffb700; height: 1.3rem; white-space: nowrap; }
+
+.video-cont .text { width: 100%; padding: 0 1.1rem; font-size: 0.6rem; color: #444; line-height: 1rem; margin-top: 0.4rem; margin-bottom: 0.8rem; }
+
+.coupon-cont { width: 100%; margin-top: 0.4rem; padding: 0.6rem; height: auto; overflow: hidden; background-color: #fff; }
+
+.coupon-cont .text { color: #676767; font-size: 0.6rem; line-height: 0.9rem; }
+
+.coupon-list { width: 100%; height: auto; overflow: hidden; }
+
+.coupon-list li { float: left; margin-top: 0.6rem; width: 6.6rem; height: 3.7rem; background-color: #ffa7c5; padding: 0.2rem; position: relative; overflow: hidden; }
+
+.coupon-list li:nth-child(2n) { float: right; }
+
+.coupon-list .used { background-color: #c2c2c2; }
+
+.coupon-list .statu { position: absolute; top: 0.4rem; left: -1rem; height: 0.9rem; width: 3.6rem; text-align: center; line-height: 0.9rem; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); font-weight: bold; }
+
+.coupon-list .wait .statu { color: #ff6499; background-color: #fae62f; }
+
+.coupon-list .used .statu { color: #fff; background-color: rgba(0, 0, 0, 0.5); }
+
+.coupon-list div { width: 100%; height: 100%; border: solid 1px #fff; color: #fff; }
+
+.coupon-list .title { font-size: 0.52rem; text-align: right; margin-top: 0.2rem; padding-right: 0.2rem; }
+
+.coupon-list .price { text-align: center; margin-top: 0.4rem; text-shadow: none; }
+
+.coupon-list .price span { font-size: 1.16rem; font-weight: bold; }
+
+.coupon-list .wait .price { text-shadow: 1px 1px 1px #fc9900; color: #ffd000; }
+
+.coupon-list .date { text-align: center; white-space: nowrap; font-size: 0.36rem; margin-top: 0.2rem; }
+
+.info-cont .but-cont { width: 100%; margin-top: 1.6rem; margin-bottom: 1.2rem; height: auto; overflow: hidden; }
+
+.info-cont a { float: left; display: block; margin: 0 0.8rem; width: 5rem; height: 1.6rem; line-height: 1.6rem; text-align: center; border-radius: 0.16rem; color: #fff; font-size: 0.6rem; background-color: #ffb700; }
+
+.info-cont .disable { background-color: #b8b8b8; }
+
+.info-list { width: 100%; height: auto; padding-top: 0.4rem; }
+
+.info-list li { width: 100%; height: auto; border-bottom: solid 1px #ccc; overflow: hidden; }
+
+.info-list p, .info-list input { float: left; line-height: 2rem; color: #666; font-size: 0.6rem; width: 8.8rem; }
+
+.info-list li p:first-child { color: #999; width: 4.2rem; }
+
+.info-list input { border: none; }
+
+.info-list label { float: left; line-height: 2rem; color: #666; font-size: 0.6rem; margin-right: 1.4rem; }
+
+.info-list label i { display: inline-block; width: 12px; height: 12px; background-image: url(../images/icon.png?v=77231); background-position: -66px -17px; margin-right: 0.4rem; }
+
+.info-list label.act i { background-position: -78px -17px; }
+
+table { border-left: solid 1px #ffb700; border-top: solid 1px #ffb700; width: 100%; margin-top: 0.8rem; font-size: 0.6rem; color: #666; text-align: center; }
+
+table td { border-right: solid 1px #ffb700; border-bottom: solid 1px #ffb700; line-height: 1.3rem; width: 50%; }
+
+table .t-head { background-color: #fdf4de; text-align: left; text-indent: 0.5rem; position: relative; }
+
+table .del { display: block; position: absolute; top: 50%; margin-top: -9px; width: 15px; height: 17px; background-image: url(../images/icon.png?v=77231); background-position: -126px 0; right: 0.5rem; }
+
+table img { width: 5.7rem; height: 3.4rem; margin-top: 0.3rem; }
+
+table span { font-size: 0.84rem; color: #ffb700; }

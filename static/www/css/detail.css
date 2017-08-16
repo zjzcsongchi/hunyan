@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/*酒水详情*/
+.drink-detail { width: 100%; height: auto; overflow: hidden; margin-top: 45px; margin-bottom: 65px; }
+
+.drink-detail .right-cont { float: right; width: 660px; height: auto; }
+
+.drink-detail .title { width: 100%; height: 45px; border-bottom: dashed 1px #d7d7d7; line-height: 45px; color: #333; font-size: 20px; font-weight: bold; }
+
+.drink-detail .price-cont { width: 620px; height: 100px; background-color: #f2f2f2; margin-top: 10px; color: #787878; padding-right: 40px; }
+
+.drink-detail .price-cont span { float: left; line-height: 100px; text-indent: 20px; }
+
+.drink-detail span.price { font-weight: bold; font-size: 30px; color: #d21718; margin-left: 10px; text-indent: 0; }
+
+.drink-detail span.text-red { color: #d21718; margin-left: 25px; font-size: 18px; text-indent: 0; }
+
+.drink-detail .icon { display: inline-block; float: left; position: relative; margin-top: 40px; padding: 5px 15px; color: #fff; line-height: 12px; background-color: #fa807d; border-radius: 3px 3px 3px 0; font-size: 12px; margin-left: 20px; }
+
+.drink-detail .icon i { position: absolute; display: inline-block; bottom: 0; left: -7px; width: 0; height: 0; border-bottom: 4px solid #fa807d; border-left: 7px solid transparent; }
+
+.drink-detail .price-cont b { display: inline-block; float: right; padding: 3px 10px; color: #fff; border-radius: 3px; background-color: #ffc12d; margin-left: 12px; margin-top: 41px; font-weight: normal; }
+
+.drink-detail .num { width: 100%; padding: 10px 0; border-bottom: dashed 1px #d7d7d7; color: #787878; font-size: 16px; text-indent: 15px; }
+
+.drink-detail .num span { color: #333; margin-left: 10px; }
+
+.drink-detail .cont { width: 100%; height: auto; overflow: hidden; margin-top: 20px; }
+
+.drink-detail .cont span { float: left; letter-spacing: 25px; color: #787878; line-height: 30px; text-indent: 25px; }
+
+.drink-detail .sum { float: left; display: inline-block; height: 28px; border: solid 1px #b5b5b5; width: 28px; line-height: 28px; text-align: center; font-size: 20px; }
+
+.drink-detail .sum.but { color: #ffb700; }
+
+.drink-detail input { float: left; width: 48px; border: solid 1px #b5b5b5; border-right: none; border-left: none; line-height: 28px; text-align: center; }
+
+.drink-detail .cont b { display: inline-block; float: left; margin-top: 5px; font-weight: normal; width: 22px; height: 22px; text-align: center; line-height: 22px; color: #fff; border-radius: 50%; background-color: #fa807d; margin-left: 10px; }
+
+.drink-detail .cont b.icon1 { background-color: #ffc12d; margin-left: 35px; }
+
+.drink-detail .destine { display: block; float: left; margin-left: 25px; width: 195px; height: 45px; border-radius: 5px; background-color: #ffc12d; color: #fff; line-height: 45px; font-size: 20px; background-repeat: no-repeat; background-image: url(../images/drink-icon2.png?v=eba99); background-position: 30px center; text-indent: 65px; }
+
+.drink-detail .destine:hover { background-color: #f3ab00; }
+
+.drink-detail .pay-way { float: right; margin-right: 25px; color: #787878; padding-right: 25px; line-height: 45px; cursor: pointer; height: 45px; background-image: url(../images/m-arror.png?v=c76ed); background-repeat: no-repeat; background-position: right center; background-size: 15px 9px; }
+
+.drink-detail .tip-text { width: 100%; margin-top: 20px; height: 25px; line-height: 25px; background-color: #f2f2f2; }
+
+.drink-detail .tip-text span { margin-left: 25px; color: #787878; }
+
+.drink-detail .norms-cont { float: left; width: 555px; }
+
+.drink-detail .norms-cont .list { float: left; padding: 5px 10px; color: #212121; border: solid 1px #aaa; margin-right: 20px; position: relative; cursor: pointer; }
+
+.drink-detail .norms-cont .list.act { border: solid 1px #ffc12d; }
+
+.drink-detail .norms-cont i { display: none; }
+
+.drink-detail .norms-cont .list.act i { display: inline-block; position: absolute; bottom: 0; right: 0; width: 14px; height: 14px; background-size: 14px 14px; background-image: url(../images/media-icon5.png?v=cffd1); }
+
+.info-list { width: 100%; padding: 15px 0; border-bottom: dashed 1px #d7d7d7; height: auto; overflow: hidden; }
+
+.info-list li { float: left; width: 305px; line-height: 30px; color: #d21718; padding-left: 25px; }
+
+.info-list span { color: #787878; width: 85px; display: inline-block; letter-spacing: 1px; }
+
+.info-list .text1 { letter-spacing: 28px; }
+
+.info-list .text2 { letter-spacing: 7px; }
+
+.tFocus { width: 475px; height: 595px; overflow: hidden; float: left; }
+
+.tFocus .tFocus-pic { width: 475px; height: 475px; position: relative; }
+
+.tFocus .tFocus-pic li { width: 473px; height: 473px; position: absolute; left: 0; top: 0; opacity: 0; border: solid 1px #ddd; }
+
+.tFocus .tFocus-pic li img { width: 100%; height: 100%; }
+
+.tFocus .tFocusBtn { width: 475px; height: 100px; margin-top: 20px; z-index: 20; overflow: hidden; }
+
+.tFocus .tFocus-btn { width: 475px; height: 100px; position: relative; left: 0; bottom: 0; overflow: hidden; float: left; }
+
+.tFocus .tFocus-btn ul { width: 1000px; position: absolute; left: 0; top: 0; }
+
+.tFocus .tFocus-btn li { height: 96px; width: 100px; display: block; float: left; margin-right: 21px; border: solid 2px #fff; cursor: pointer; }
+
+.tFocus .tFocus-btn li img { width: 100%; height: 100%; }
+
+.tFocus .tFocus-btn li.active { border: solid 2px #ffc12d; }
+
+.right-menu { position: fixed; cursor:pointer; height: 200px; width: 45px; background-color: #ffc12d; right: 0; top: 50%; margin-top: -100px; }
+
+.right-menu .user { display: block; width: 100%; height: 54px; border-bottom: solid 1px #fff; background-repeat: no-repeat; background-position: center; background-image: url(../images/drink-icon3.png?v=4d224); }
+
+.right-menu .car { width: 25px; color: #fff; font-size: 18px; text-align: center; padding: 0 10px; padding-top: 25px; position: relative; margin-top: 30px; background-repeat: no-repeat; background-position: 9px top; background-image: url(../images/drink-icon2.png?v=eba99); }
+
+.right-menu .car p { display: inline-block; color: #fff; font-size: 12px; background-color: #ca0303; border-radius: 50%; padding: 2px 6px; top: -21px; position: absolute; left: 12px; }
+
+.right-menu .cont { position: absolute; display: none; right: 45px; width: 224px; height: 83px; border: solid 1px #d6d6d6; color: #3c3c3c; border-right: 0; background-color: #fff; top: 54px; border-radius: 2px 0 0 2px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); background-repeat: no-repeat; background-image: url(../images/drink-icon1.png?v=f081a); background-position: 19px center; }
+
+.right-menu .close { position: absolute; width: 11px; height: 11px; top: 12px; right: 12px; background-image: url(../images/m-close.png?v=fa965); background-size: 11px 11px; cursor: pointer; }
+
+.right-menu .head { font-size: 16px; font-weight: bold; padding-left: 57px; padding-top: 25px; }
+
+.right-menu .text { padding-left: 57px; font-size: 12px; }
+
+.right-menu .text a { font-size: 12px; color: #ffc12d; }
+
+.right-menu .cont.act { display: block; }
+
+.padtop100 { padding-top: 100px; }
+.padbot150 { padding-bottom: 150px; }
+
+.grey { background-color: #f7f7f7; }
+
+.shop-cont { margin-top: 30px; }
+
+.shop-cont .head-title { color: #ffc12d; font-size: 40px; height: 45px; margin-bottom: 25px; line-height: 45px; text-indent: 65px; background-repeat: no-repeat; background-position: left center; background-image: url(../images/drink-icon4.png?v=43612); }
+
+.shop-cont .result-cont { width: 100%; height: 45px; margin-top: 25px; margin-bottom: 45px; background-color: #f2f2f2; border-radius: 3px; }
+
+.shop-cont .result-cont a { float: right; width: 95px; height: 45px; line-height: 45px; text-align: center; border-radius: 3px; color: #fff; background-color: #b0b0b0; font-size: 22px; }
+
+.shop-cont .result-cont .text { float: right; font-size: 12px; color: #3c3c3c; margin-left: 20px; line-height: 45px; }
+
+.shop-cont .result-cont span { color: #ff0000; line-height: 45px; display: inline-block; }
+
+.shop-cont .result-cont .price { font-weight: bold; margin: 0 5px; }
+
+table { width: 100%; border: solid 1px #dcdcdc; border-bottom: none; background-color: #fff;}
+
+table tr { border-bottom: solid 1px #dcdcdc; padding: 0; }
+
+table td { border-bottom: solid 1px #dcdcdc; padding: 0; }
+
+table .top { line-height: 50px; color: #ffc12d; font-size: 20px; text-indent: 20px; }
+
+table .top a { display: block; float: right; margin-right: 20px; width: 55px; height: 25px; background-color: #ffc12d; text-align: center; color: #fff; font-size: 12px; border-radius: 3px; line-height: 25px; text-indent: 0; margin-top: 12px; }
+
+table .top .text1 { font-size: 12px; color: #3c3c3c; float: right; }
+
+table .top span { color: #ff0000; margin: 0 8px; }
+
+table .head { line-height: 50px; font-size: 12px; color: #3c3c3c; text-align: center; }
+
+table input { margin-left: 20px; }
+
+table .t-l { text-align: left; }
+
+table .order { color: #4c4c4c; margin-top: 15px; }
+
+table img { width: 158px; border: solid 0px #dedede; margin-top: 15px; margin-bottom: 15px; }
+
+table .title { font-size: 16px; color: #131312; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; text-align: left; line-height: 40px; }
+
+table .text { color: #787878; text-align: left; line-height: 30px; }
+
+table .text span { color: #d21718; margin-left: 15px; }
+
+table .price { width: 100%; text-align: center; color: #d21718; }
+
+table .del { font-size: 12px; color: #3c3c3c; cursor: pointer; text-align: center; }
+
+table .but { float: left; width: 28px; height: 28px; border: solid 1px #b5b5b5; display: inline-block; text-align: center; line-height: 28px; color: #ffc12d; font-size: 20px; }
+
+table input[type="text"] { float: left; width: 45px; margin: 0; height: 28px; text-align: center; border: solid 1px #b5b5b5; border-left: 0; border-right: 0; }
+
+table .reduce { color: #333; margin-left: 25px; }
+
+.popup-info { position: fixed; z-index: 120; width: 670px; height: 350px; background-color: #fff; border-radius: 5px; top: -150%; left: 50%; margin: -205px 0 0 -365px; padding: 30px; transition: all .5s; -webkit-transition: all .5; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; }
+
+.popup-info .close { position: absolute; top: 20px; right: 20px; width: 20px; height: 20px; background-image: url(../images/m-close.png?v=fa965); cursor: pointer; transition: all .5s; -webkit-transition: all .5; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; }
+
+.popup-info .close:hover { transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); }
+
+.popup-info .title { height: 50px; width: 100%; border-bottom: solid 1px #ffc12d; font-size: 26px; color: #333; }
+
+.popup-info ul { width: 100%; height: auto; margin-top: 5px; }
+
+.popup-info li { width: 100%; height: auto; overflow: hidden; margin-top: 20px; }
+
+.popup-info .head { line-height: 35px; color: #666; width: 70px; text-align: right; margin-right: 10px; float: left; }
+
+.popup-info input, .popup-info select { float: left; width: 198px; height: 33px; line-height: 33px; border: solid 1px #cfcfcf; border-radius: 3px; text-indent: 10px; outline: none; }
+
+.popup-info .text { float: left; line-height: 35px; margin-left: 10px; color: #aaa; }
+
+.popup-info .text span { color: #ff0000; }
+
+.popup-info .width { width: 530px; }
+
+.popup-info .but { display: block; margin: 0 auto; width: 120px; height: 40px; text-align: center; line-height: 40px; color: #fff; border-radius: 3px; background-color: #ffc12d; margin-top: 30px; font-size: 18px; }
+
+.popup-info .but:hover { background-color: #eea906; }
+
+.popup-info .message { position: absolute; width: 100%; height: 30px; line-height: 30px; text-align: center; color: #ff0000; bottom: 80px; left: 0; }
+
+.popup-info.act { top: 50%; }
+
+.popup-del { position: fixed; z-index: 120; width: 345px; height: 150px; background-color: #fff; top: -150%; left: 50%; margin: -75px 0 0 -165px; padding-left: 25px; transition: all .5s; -webkit-transition: all .5; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; }
+
+.popup-del .close { position: absolute; top: 20px; right: 20px; width: 15px; height: 15px; background-image: url(../images/m-close.png?v=fa965); cursor: pointer; background-size: 15px 15px; transition: all .5s; -webkit-transition: all .5; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; }
+
+.popup-del .close:hover { transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); }
+
+.popup-del .title { font-size: 16px; font-weight: bold; color: #3c3c3c; padding-top: 30px; }
+
+.popup-del .text { color: #3c3c3c; font-size: 12px; margin-top: 10px; }
+
+.popup-del a { display: block; float: left; margin-top: 20px; margin-right: 10px; width: 55px; height: 28px; border-radius: 3px; border: solid 1px #ffc12d; background-color: #ffc12d; color: #fff; text-align: center; line-height: 28px; }
+
+.popup-del .qx { background-color: #fff; color: #ffc12d; }
+
+.popup-del.act { top: 50%; }
+
+.pay-info { width: 1168px; height: 45px; background-color: #fff; padding: 14px; border: solid 1px #e9e9e9; margin-top: 40px; }
+
+.pay-info .cont1 { float: left; width: 425px; border-right: solid 1px #a0a0a0; height: 100%; padding-left: 35px; overflow: hidden; }
+
+.pay-info .title { font-size: 16px; color: #4c4c4c; }
+
+.pay-info .text { color: #545454; margin-top: 5px; }
+
+.pay-info .text span { color: #d63336; }
+
+.pay-info .number { float: left; width: 340px; height: 100%; line-height: 45px; border-right: solid 1px #a0a0a0; overflow: hidden; text-align: center; font-size: 18px; color: #4c4c4c; }
+
+.pay-info .price { float: left; width: 365px; text-align: center; line-height: 45px; font-size: 18px; color: #0f0f0f; overflow: hidden; }
+
+.pay-info .price span { color: #f51818; font-size: 30px; }
+
+.pay-cont { width: 1140px; padding: 29px; background-color: #fff; border: solid 1px #e9e9e9; height: auto; overflow: hidden; margin-top: 30px; text-align: center; }
+
+.pay-cont .pay-left { float: left; width: 50%; height: 570px; background-color: #f7f7f7; }
+
+.pay-cont .title { font-size: 36px; color: #333; margin-top: 35px; margin-bottom: 20px; }
+
+.pay-cont .pay-right { float: left; width: 50%; height: 570px; background-color: #f1f1f1; }
+
+.pay-cont .price { margin-top: 55px; font-size: 36px; color: #666; font-weight: bold; }
+
+.pay-cont .price span { color: #f51818; }
+
+.pay-cont .ewm { width: 252px; height: 252px; margin-top: 45px; }
+
+.pay-cont .text { font-size: 16px; color: #666; margin-top: 10px; }
+
+.u-flyer { display: block; width: 50px; height: 50px; border-radius: 50px; position: fixed; z-index: 9999; }
+
+.bottom-cont { position: fixed; bottom: 0; width: 100%; height: 120px; background-color: #fff; box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.1); z-index: 100; }
+
+.bottom-cont .car { position: relative; float: left; margin-left: 90px; margin-top: 25px; width: 80px; height: 80px; border-radius: 50px; background-color: #aaa; box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.1); background-repeat: no-repeat; background-position: center 26px; background-image: url(../images/user-icon8.png?v=ed926); background-size: 46px 37px; }
+
+.bottom-cont .car p { position: absolute; color: #fff; background-color: #f51818; border-radius: 50%; padding: 4px 9px; right: 0; top: -5px; }
+
+.bottom-cont .bottom-con { width: 1200px; margin: 0 auto; height: auto; }
+
+.bottom-cont .price { width: 220px; text-align: center; line-height: 50px; color: #333; font-size: 18px; font-weight: bold; float: left; overflow: hidden; margin-top: 35px; }
+
+.bottom-cont .price span { color: #f51818; }
+
+.bottom-cont .but { float: left; display: block; color: #fff; font-size: 18px; font-weight: bold; width: 170px; height: 50px; margin-top: 35px; background-color: #f51818; text-align: center; line-height: 50px; border-radius: 5px; margin-right: 90px; }
+
+.bottom-cont .but:hover { background-color: #db0303; }
+
+.bottom-cont .text { float: left; margin-left: 30px; height: 35px; line-height: 35px; margin-top: 42px; width: 410px; border-right: solid 1px #ccc; overflow: hidden; font-size: 18px; color: #333; font-weight: bold; }
+
+.bottom-cont .text span { color: #f51818; }
+
+.bottom-cont .unable { background-color: #aaa; }

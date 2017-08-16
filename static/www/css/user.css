@@ -1,0 +1,222 @@
+body { background: #fff; }
+
+.user-top { width: 100%; height: 405px; position: relative; background-image: url(../images/user-bg1.jpg?v=65afb); background-position: center; text-align: center; }
+
+.user-top img { width: 158px; height: 158px; border-radius: 50%; border: solid 4px #ffb700; margin-top: 85px; }
+
+.user-top .name { color: #ffb700; font-size: 30px; margin-top: 10px; }
+
+.user-top .to-edit { display: block; width: 115px; height: 25px; line-height: 25px; color: #fff; background: #ffb700; margin: 15px auto; border-radius: 3px; box-shadow: 0 2px 0 0 #d99c00; }
+
+.user-top .to-edit:hover { background: #fc4f8a; }
+
+.user-nav { width: 100%; height: 79px; line-height: 79px; text-align: center; border-bottom: solid 1px #e5e5e5; }
+
+.user-nav a { color: #000; font-size: 16px; margin: 0 40px; }
+
+.user-nav a:hover, .user-nav a.act { color: #ffb700; }
+
+.menu-cont { width: 100%; height: 701px; background-image: url(../images/wedding-bg1.jpg?v=c5b98); background-position: center; }
+
+.video-cont { width: 100%; height: 776px; background-position: center; border-bottom: solid 1px #ffb700; }
+
+.user-main { width: 1000px; height: auto; overflow: hidden; margin: 0 auto; position: relative; }
+
+.user-main .head { width: 100%; height: 30px; text-align: center; line-height: 30px; font-size: 30px; font-weight: bold; color: #444; background-image: url(../images/venue.png?v=ffdf1); margin-top: 65px; }
+
+.user-main .head-s { color: #666; line-height: 25px; margin-top: 5px; text-align: center; }
+
+.user-main .chose-cont { line-height: 12px; font-size: 12px; color: #ffb700; text-align: right; margin-top: -19px; }
+
+.user-main .chose-cont p { color: #898989; display: inline-block; margin-left: 8px; cursor: pointer; }
+
+.user-main .chose-cont i { display: inline-block; width: 12px; height: 12px; background-image: url(../images/icon.png?v=77231); background-position: -66px -17px; margin-right: 5px; }
+
+.user-main .chose-cont .act i { background-position: -78px -17px; }
+
+.user-main .pages-cont { width: 100%; height: auto; margin-top: 15px; margin-bottom: 60px; overflow: hidden; }
+
+.user-main .pages { float: right; }
+
+.user-main .pages a { display: block; float: left; margin-left: 10px; width: 34px; height: 34px; border: solid 1px #ffb700; border-radius: 50%; color: #ffb700; text-align: center; line-height: 34px; }
+
+.user-main .pages a:hover { background: #ffb700; color: #fff; }
+
+.user-main .pages .but { width: 70px; height: 28px; margin-top: 3px; background: #9b9b9b; line-height: 28px; border-radius: 3px; border: solid 1px #9b9b9b; color: #fff; }
+
+.user-main .pages .but:hover, .user-main .pages .but.act { border: solid 1px #ffb700; background: #ffb700; }
+
+.menu-cont .head { background-image: url(../images/drinks.png?v=5f714); }
+
+.video-cont .head { background-image: url(../images/wedding.png?v=7e3ae); }
+
+.hall-cont { width: 994px; padding: 3px; height: 410px; background: #ffb700; margin-bottom: 90px; margin-top: 30px; position: relative; }
+
+.hall-cont i { display: block; width: 0; height: 0; border-top: 30px solid #fff; border-left: 30px solid transparent; position: absolute; top: 3px; right: 2px; z-index: 5; }
+
+.hall-cont .right-cont { float: left; margin-left: 35px; margin-top: 30px; color: #fff; width: 280px; }
+
+.hall-cont .title { font-size: 30px; padding-bottom: 10px; border-bottom: solid 2px #fff; display: inline-block; margin-bottom: 20px; }
+
+.hall-cont .text { line-height: 30px; font-size: 16px; }
+
+.hall-cont .icon { margin-top: 25px; width: 278px; height: 38px; line-height: 38px; text-align: center; font-size: 16px; border: solid 1px #fff; }
+
+.scroll { width: 645px; height: 410px; overflow: hidden; position: relative; float: left; }
+
+.scroll ul { list-style-type: none; padding: 0; margin: 0; position: absolute; top: 0; left: 0; width: 99999px; height: 410px; }
+
+.scroll li { float: left; width: 645px; position: relative; }
+
+.scroll li img { width: 645px; height: 410px; }
+
+.scroll .but { position: absolute; width: 36px; height: 50px; z-index: 10; cursor: pointer; top: 170px; background: url(../images/icon.png?v=77231); }
+
+.scroll .prev { left: 0px; background-position: -90px 0; }
+
+.scroll .next { right: 0px; background-position: -90px -50px; }
+
+.wedding-list { width: 100%; height: auto; overflow: hidden; margin-top: 30px; }
+
+.wedding-list li { float: left; margin: 0 14px 15px 0; width: 239px; height: 195px; border-radius: 5px; overflow: hidden; cursor: pointer; position: relative; }
+
+.wedding-list img { width: 100%; height: 100%; transition: all .8s; -webkit-transition: all .8s; -moz-transition: all .8s; -ms-transition: all .8s; -o-transition: all .8s; }
+
+.wedding-list .bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../images/opacity.png?v=7e766); z-index: 2; display: none; }
+
+.wedding-list .info { position: absolute; top: -100%; left: 0; width: 199px; height: 100%; z-index: 5; color: #fff; padding: 0 20px; transition: all .5s; -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; }
+
+.wedding-list .title { display: inline-block; font-size: 18px; font-weight: bold; padding-bottom: 5px; border-bottom: solid 1px #fff; margin-top: 40px; }
+
+.wedding-list .text { font-size: 12px; line-height: 20px; margin-top: 5px; height: 100px; overflow: hidden; }
+
+.wedding-list li:hover .bg { display: block; }
+
+.wedding-list li:hover .info { top: 0; }
+
+.wedding-list li:hover img { transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); }
+
+.video-con { width: 930px; padding: 34px; border: solid 1px #c7c7c7; background: url(../images/opacity.png?v=7e766); margin: 30px auto; height: auto; overflow: hidden; }
+
+.video-con .img-cont { float: left; border: solid 1px #ffb700; width: 530px; height: 418px; position: relative; }
+
+.video-con img { width: 100%; height: 100%; }
+
+.video-con i { display: block; position: absolute; width: 90px; height: 90px; top: 50%; left: 50%; margin: -48px 0 0 -48px; background: url(../images/video.png?v=8fc9a); cursor: pointer; }
+
+.video-con .info-cont { float: right; border: solid 6px #ffb700; height: 358px; width: 325px; padding: 25px 20px 25px 25px; color: #fff; overflow: hidden; }
+
+.video-con .date { color: #ececec; font-size: 24px; }
+
+.video-con .title { font-size: 18px; margin-top: 20px; }
+
+.video-con span { width: 70px; height: 1px; background: #ffb700; display: block; margin-top: 20px; margin-bottom: 10px; }
+
+.video-con .text { line-height: 32px; }
+
+.volume-list { width: 100%; height: auto; overflow: hidden; margin-top: 20px; margin-bottom: 60px; }
+
+.volume-list li { float: left; margin: 15px 13px 0 0; width: 228px; height: 124px; padding: 6px; background: #ffb700; position: relative; }
+
+.volume-list i { position: absolute; display: block; width: 91px; height: 91px; background-image: url(../images/volume.png?v=ca9e3); top: 0; left: 0; }
+
+.volume-list .cont { width: 214px; height: 110px; border: solid 1px #fff; padding: 6px; text-align: center; color: #0e0e0e; }
+
+.volume-list .title { text-align: right; font-size: 19px; color: #0e0e0e; }
+
+.volume-list .coupon-num { text-align: right; font-size: 14px;  }
+
+.volume-list .count { font-size: 36px; font-weight: bold; margin-top: 0px; color: #ec4b4b; }
+
+.volume-list .count span { font-size: 14px; }
+
+.volume-list .used, .volume-list .dateline { background: #c2c2c2; }
+
+.volume-list .used i { background-position: -182px 0; }
+
+.volume-list .dateline i { background-position: -91px 0; }
+
+.volume-list .used .cont, .volume-list .dateline .cont, .volume-list .used .count, .volume-list .dateline .count, .volume-list .used .title, .volume-list .dateline .title { color: #fff; }
+
+.card-cont { float: left; width: 310px; height: 467px; border-radius: 5px; overflow: hidden; background: url(../images/card-bg.jpg?v=59e54); margin-top: 35px; }
+
+.card-cont .con { width: 165px; height: 290px; padding: 57px 11px 55px 14px; background-image: url(../images/iphone.png?v=5598d); margin-top: 30px; margin-left: 44px; position: relative; }
+
+.card-cont .title { width: 163px; height: 43px; border: solid 1px #ffb700; border-bottom: solid 1px #ccc; background: #000; text-align: center; line-height: 43px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-size: 18px; color: #fff; }
+
+.card-cont .cont { width: 163px; border: solid 1px #ffb700; border-top: none; height: 244px; background-color: #fff; overflow: hidden; }
+
+.card-cont .but { position: absolute; display: block; background: #ffb700; color: #fff; width: 20px; text-align: center; padding: 20px 5px; border: solid 1px #ffb700; left: 190px; border-radius: 0 5px 5px 0; overflow: hidden; }
+
+.card-cont .but:hover { background: #fff; color: #ffb700; }
+
+.card-cont .prve { top: 55px; }
+
+.card-cont .next { top: 165px; }
+
+.bless-cont { float: right; margin-bottom: 80px; width: 670px; height: 465px; border: solid 1px #dcdcdc; background: #f2f2f2; border-radius: 5px; margin-top: 35px; overflow: hidden; }
+
+.bless-cont .title { width: 100%; height: 58px; border-bottom: solid 1px #dcdcdc; background: #fff; line-height: 58px; font-size: 18px; color: #4c4c4c; text-indent: 40px; }
+
+.bless-cont .title span { font-weight: bold; color: #ffb700; margin-right: 10px; }
+
+.bless-cont ul { width: 588px; height: auto; background: #fff; border: solid 1px #dcdcdc; margin: 0 auto; margin-top: 20px; border-bottom: none; max-height: 320px; overflow: hidden; }
+
+.bless-cont li { width: 100%; border-bottom: solid 1px #dcdcdc; padding: 15px 0; height: auto; overflow: hidden; }
+
+.bless-cont .text { padding: 0 40px; font-size: 16px; color: #4c4c4c; line-height: 25px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.bless-cont .bot { color: #a0a2a7; padding: 0 40px; margin-top: 5px; }
+
+.bless-cont .pages { margin-right: 40px; }
+
+.info-list { width: 100%; margin-bottom: 100px; }
+
+.info-list li { width: 100%; height: 90px; border-bottom: solid 1px #e4e4e4; }
+
+.info-list li.height-auto{height:auto;overflow: hidden;}
+.info-list li.pic-add{float: left;width: 233px;height: 175px;border: solid 1px #e4e4e4;margin:10px 0;}
+.info-list li.pro_gre{float: left;width: 233px;height: 175px;margin:10px 0;position: relative;}
+.info-list li.pro_gre .close{    display: block; background: url(../images/del-img.png) no-repeat; width: 22px; height: 22px; position: absolute; top: 6px; right: 8px;}
+
+.info-list p { float: left; line-height: 90px; font-size: 16px; color: #535353; }
+
+.info-list .title { width: 140px; }
+
+.info-list input[type="text"] { width: 280px; height: 35px; border: solid 1px #cacaca; float: left; margin-top: 28px; line-height: 35px; text-indent: 10px; }
+
+.info-list label { float: left; margin-top: 28px; line-height: 35px; margin-right: 40px; font-size: 16px; color: #535353; cursor: pointer; }
+
+.info-list input[type="radio"] { margin-right: 10px; }
+
+.info-list .submit { display: block; width: 160px; height: 40px; margin: 0 auto; background-color: #ffb700; color: #fff; text-align: center; line-height: 40px; border-radius: 5px; font-size: 16px; margin-top: 60px; }
+
+.marbot { margin-bottom: 80px; }
+
+table { border-left: solid 1px #c5c5c5; border-top: solid 1px #c5c5c5; margin-top: 30px; width: 100%; color: #444; cursor: pointer; }
+
+table td { border-right: solid 1px #c5c5c5; border-bottom: solid 1px #c5c5c5; line-height: 35px; text-align: center; padding: 10px 0; }
+
+table .t-head { line-height: 40px; background-color: #f5f5f5; text-align: left; text-indent: 15px; padding: 0; }
+
+table .cont { width: 375px; }
+
+table .del { display: block; float: right; width: 15px; height: 17px; background-image: url(../images/icon.png?v=77231); background-position: -126px 0; margin: 10px 15px 0; }
+
+table span { font-weight: bold; }
+
+table img { float: left; width: 160px; height: 95px; margin-left: 10px; }
+
+table p { float: left; text-align: center; width: 200px; padding-top: 12px; }
+
+table .text { font-size: 18px; color: #ffb700; }
+
+table:hover { border-left: solid 1px #ffb700; border-top: solid 1px #ffb700; }
+
+table:hover td { border-right: solid 1px #ffb700; border-bottom: solid 1px #ffb700; }
+
+table:hover .t-head { background-color: #fbdf98; }
+
+.user-message { padding-top: 100px; text-align: center; line-height: 100px; height: auto; overflow: hidden; padding-left: 370px; }
+
+.user-message img, .user-message p { display: inline-block; float: left; color: #ffb700; font-size: 20px; margin: 0 10px; }

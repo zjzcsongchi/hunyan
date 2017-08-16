@@ -1,0 +1,26 @@
+/**日历弹框**/
+.content{border:3px solid #ddd;width:100%; margin: 10px auto;;}
+.datetable{border-top:1px solid #ccc;border-left:1px solid #ccc;background:#fff;}
+.datetable td{border-bottom:1px solid #ccc;border-right:1px solid #ccc;text-align:center;}
+.datetable thead{background:#056cad;}
+.datetable thead td{padding:10px 5px;font:normal 12px/normal 'microsoft yahei';color:#fff;text-align:center;}
+.datetable thead td span{padding:0 5px;}
+.datetable tbody td{padding:0px 3px;font-size:24px;}
+.calendar_wrap .calendar_close {
+	position: fixed;
+    top: 18px;
+    right: 11px;
+    border-radius: 5px;
+}
+.calendar_wrap select{
+	color: #000;
+}
+.calendar_wrap {
+	display:none;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 5px;
+	height: 500px;
+	width: 600px;
+}

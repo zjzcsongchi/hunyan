@@ -1,0 +1,128 @@
+html { font-size: 50px; }
+
+body { font-size: 24px; }
+
+@media screen and (min-width: 320px) { html { font-size: 21.33px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 360px) { html { font-size: 24px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 375px) { html { font-size: 25px; }
+  body { font-size: 12px; } }
+
+@media screen and (min-width: 384px) { html { font-size: 25.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 400px) { html { font-size: 26.67px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 414px) { html { font-size: 27.6px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 424px) { html { font-size: 28.27px; }
+  body { font-size: 14px; } }
+
+@media screen and (min-width: 480px) { html { font-size: 32px; }
+  body { font-size: 15.36px; } }
+
+@media screen and (min-width: 540px) { html { font-size: 36px; }
+  body { font-size: 17.28px; } }
+
+@media screen and (min-width: 720px) { html { font-size: 48px; }
+  body { font-size: 23.04px; } }
+
+@media screen and (min-width: 750px) { html { font-size: 50px; }
+  body { font-size: 24px; } }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+ul, ol, li { list-style: none; }
+
+em, i { font-style: normal; }
+
+a, img { -webkit-tap-highlight-color: transparent; }
+
+* { outline: 0; -webkit-tap-highlight-color: transparent; -webkit-box-sizing: border-box; font-family: "Microsoft Yahei"; line-height: 1; font-size: 0.48rem; }
+
+html { min-width: 6.4rem; height: 100%; }
+
+body { margin: 0 auto; min-width: 6.4rem; max-width: 15rem; box-sizing: border-box; line-height: 1; overflow-x: hidden; background: #fff; }
+
+body.grey { background: #eee; }
+
+a { text-decoration: none; }
+
+input { font-family: "Microsoft Yahei"; font-size: 0.6rem; color: #aaa; border: none; }
+
+.l { float: left; }
+
+.r { float: right; }
+
+.banner { width: 100%; height: 6.4rem; background-size: 100%; position: relative; padding-top: 1.5rem; background-image: url(../images/m-wallbg.jpg?v=d3e91); text-align: center; color: #fff; }
+
+.banner .title { font-size: 0.8rem; font-weight: bold; }
+
+.banner .text { font-size: 0.52rem; font-weight: bold; margin-top: 0.4rem; }
+
+.banner .input-cont { width: 10.2rem; height: 1.4rem; background-color: rgba(255, 255, 255, 0.5); margin: 0.6rem auto; border-radius: 0.8rem; position: relative; padding: 0.1rem; }
+
+.banner input { width: 100%; height: 100%; background-color: #fff; border: none; border-radius: 0.7rem; text-indent: 0.7rem; }
+
+.banner .icon { position: absolute; display: inline-block; left: 50%; width: 2rem; margin-left: -1rem; text-indent: 0.6rem; height: 1.2rem; line-height: 1.2rem; font-size: 0.52rem; color: #666; top: 0.1rem; background-repeat: no-repeat; background-image: url(../images/m-search.png?v=04257); background-size: 0.5rem 0.5rem; background-position: left center; }
+
+.banner .hiden { display: none; }
+
+.chose-cont { width: 100%; padding: 0.5rem 0; background-color: #fff; height: auto; overflow: hidden; }
+
+.chose-cont .cont { float: left; width: 50%; height: 0.8rem; border-right: solid 1px #dcdcdc; position: relative; }
+
+.chose-cont .cont:nth-child(2) { border-right: none; }
+
+.chose-cont .text { color: #b8b8b8; font-size: 0.6rem; padding-left: 0.9rem; line-height: 0.8rem; }
+
+.chose-cont .text.act { color: #333; }
+
+.chose-cont i { display: inline-block; position: absolute; right: 0.9rem; }
+
+.chose-cont .cont:nth-child(1) i { width: 0.68rem; height: 0.6rem; background-image: url(../images/wall-icon1.png?v=b62c0); background-size: 0.68rem 0.6rem; top: 0.12rem; }
+
+.chose-cont .cont:nth-child(2) i { width: 0.6rem; height: 0.32rem; background-image: url(../images/m-arror.png?v=c76ed); background-size: 0.6rem 0.32rem; top: 0.24rem; }
+
+.wall-list { width: 100%; height: auto; overflow: hidden; padding: 0 0.4rem; }
+
+.wall-list li { float: left; width: 6.9rem; height: 5.9rem; background-color: #fff; overflow: hidden; border-radius: 0.16rem; margin-top: 0.4rem; }
+
+.wall-list li:nth-child(2n) { float: right; }
+
+.wall-list img { width: 100%; height: 4rem; }
+
+.wall-list .name { font-size: 0.52rem; color: #666; padding: 0.2rem 0.3rem; }
+
+.wall-list .cont { width: 100%; color: #999; margin-top: 0.2rem; }
+
+.wall-list .l { padding-left: 0.3rem; }
+
+.wall-list .r { padding-right: 0.3rem; }
+
+.wall-popup { position: fixed; z-index: 120; width: 10.4rem; min-height: 10.4rem; background-color: #fff; border-radius: 0.16rem; top: 1.6rem; left: -150%; margin-left: -5.2rem; -webkit-transition: all .5s ease-in; transition: all .5s; }
+
+.wall-popup .venue-list { width: 100%; padding: 0.2rem 1.2rem; max-height: 20rem; overflow-y: auto; }
+
+.wall-popup .venue-list li { width: 100%; text-align: center; border-bottom: solid 1px #ccc; height: 2rem; line-height: 2rem; font-size: 0.6rem; color: #666; }
+
+.wall-popup .venue-list li:last-child { border-bottom: none; }
+
+.wall-popup.act { left: 50%; }
+
+.wall-popup.time { height: 10.4rem; top: 50%; margin-top: -5.2rem; }
