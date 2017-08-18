@@ -118,9 +118,8 @@ class CI_Log {
 		$this->_log_path = ($config['log_path'] !== '') ? $config['log_path'] : APPPATH.'logs/';
 		$this->_file_ext = (isset($config['log_file_extension']) && $config['log_file_extension'] !== '')
 			? ltrim($config['log_file_extension'], '.') : 'php';
-
-		file_exists($this->_log_path) OR mkdir($this->_log_path, 0755, TRUE);
-
+// 		var_dump($this->_log_path);exit;
+// 		file_exists($this->_log_path) OR mkdir($this->_log_path, 0755, TRUE);
 		if ( ! is_dir($this->_log_path) OR ! is_really_writable($this->_log_path))
 		{
 			$this->_enabled = FALSE;

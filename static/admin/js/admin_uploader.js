@@ -154,7 +154,7 @@ define(function(require, exports, module){
 		    	value.type = value.type ? value.type : 'image';
 		    	if(value.type == 'rich_text'){
 		    		$(value.obj).swfupload({
-		    			upload_url: uploadUrl+"/file/upload",
+		    			upload_url: uploadUrl+"/file/upload_php",
 		    			file_size_limit : max(),
 		    			file_types : "*.jpg;*.png;*.gif;*.mp4;*.jpeg;*.mp3",
 		    			file_types_description : "All Files",
@@ -171,7 +171,7 @@ define(function(require, exports, module){
 		    		});
 		    	}else{
 		    		$(value.obj).swfupload({
-		    			upload_url: uploadUrl+"/file/upload",
+		    			upload_url: uploadUrl+"/file/upload_php",
 		    			file_size_limit : max(),
 		    			file_types : "*.jpg;*.png;*.gif;*.mp4;*.jpeg;*.mp3",
 		    			file_types_description : "All Files",

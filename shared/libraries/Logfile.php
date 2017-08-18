@@ -71,7 +71,6 @@ class Logfile
         }
         
         $this->filepath = $this->filepath.'/log-'.date('Y-m-d').'.log';
-        
         if ( ! file_exists($this->filepath))
         {
             $newfile = TRUE;

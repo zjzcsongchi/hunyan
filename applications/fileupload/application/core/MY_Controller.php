@@ -15,19 +15,19 @@ class MY_Controller extends CI_Controller {
         $this->load->library('session');
         $all_sess = $this->session->all_userdata();
         //加载日志类库
-        $this->load->library('logfile', array(
-                        'path' => APPPATH.'/logs'
-        ));
+//         $this->load->library('logfile', array(
+//                         'path' => APPPATH.'/logs'
+//         ));
         if(!empty($all_sess['USER'])){
             //后台登录用户
             $user = $all_sess['USER'];
-            $log_str = '用户类型:后台管理员;登录名:'.$user['name'].';真实姓名:'.$user['fullname'].';手机号:'.$user['tel'].';操作时间:'.date('Y-m-d H:i:s');
-            $this->logfile->info($log_str);
+//             $log_str = '用户类型:后台管理员;登录名:'.$user['name'].';真实姓名:'.$user['fullname'].';手机号:'.$user['tel'].';操作时间:'.date('Y-m-d H:i:s');
+//             $this->logfile->info($log_str);
         }else if(!empty($all_sess['user'])){
             //前台登录用户
             $user = decrypt($all_sess['user']);
-            $log_str = '用户类型:前台用户;'.'用户手机号:'.$user['mobile_phone'].';操作时间:'.date('Y-m-d H:i:s');
-            $this->logfile->info($log_str);
+//             $log_str = '用户类型:前台用户;'.'用户手机号:'.$user['mobile_phone'].';操作时间:'.date('Y-m-d H:i:s');
+//             $this->logfile->info($log_str);
         }else{
             //删除nginx upload module上传后的临时文件
             $file_path = $_POST['file_path'];
